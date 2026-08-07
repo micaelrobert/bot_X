@@ -1,11 +1,21 @@
-from pathlib import Path
+"""Open a headed persistent Chromium session using the real Edge profile."""
+
+from __future__ import annotations
+
 import asyncio
+import sys
+from pathlib import Path
+
 from playwright.async_api import async_playwright
 
 
-async def main():
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(PROJECT_ROOT))
 
-    # Perfil específico do Edge
+
+async def main() -> None:
+
+    # Pasta raiz dos perfis do Edge
     edge_profile = (
         Path.home()
         / "AppData"
@@ -13,41 +23,88 @@ async def main():
         / "Microsoft"
         / "Edge"
         / "User Data"
-        / "Default"
     )
 
-    print("Abrindo perfil:")
+    print("\nPerfil Edge utilizado:")
     print(edge_profile)
 
-    async with async_playwright() as p:
+    if not edge_profile.exists():
+        raise Exception("Pasta do Edge não encontrada.")
 
-        context = await p.chromium.launch_persistent_context(
+    print("\nPerfis encontrados:")
+    for folder in edge_profile.iterdir():
+        if folder.is_dir():
+            print("-", folder.name)
+
+
+    async with async_playwright() as playwright:
+
+        context = await playwright.chromium.launch_persistent_context(
             user_data_dir=str(edge_profile),
             channel="msedge",
             headless=False,
             locale="pt-BR",
+            args=[
+                "--profile-directory=Default",
+            ],
             viewport={
                 "width": 1440,
-                "height": 1000
+                "height": 1000,
             },
         )
 
-        page = context.pages[0] if context.pages else await context.new_page()
+
+        # Verifica se os cookies do X foram carregados
+        cookies = await context.cookies()
+
+        print("\nQuantidade total de cookies:", len(cookies))
+
+        x_cookies = []
+
+        for cookie in cookies:
+            domain = cookie["domain"]
+
+            if "x.com" in domain or "twitter.com" in domain:
+                x_cookies.append(cookie)
+                print(
+                    "Cookie X encontrado:",
+                    cookie["name"],
+                    domain
+                )
+
+        if not x_cookies:
+            print("\nNenhum cookie do X encontrado.")
+            print("A sessão do X não está sendo carregada pelo Playwright.")
+        else:
+            print("\nSessão do X encontrada!")
+
+
+        page = (
+            context.pages[0]
+            if context.pages
+            else await context.new_page()
+        )
+
 
         await page.goto(
             "https://x.com/home",
-            wait_until="domcontentloaded"
+            wait_until="domcontentloaded",
         )
 
-        print("Página aberta.")
-        print("Confira se está logado.")
+
+        print("\nNavegador aberto.")
+        print("Confira se o X está logado.")
 
         await asyncio.to_thread(
             input,
-            "ENTER para fechar..."
+            "\nPressione ENTER para fechar..."
         )
 
+
         await context.close()
+
+
+        print("\nFinalizado.")
 
 
 if __name__ == "__main__":

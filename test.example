@@ -1,21 +1,15 @@
-"""Open a headed persistent Chromium session for the first X login."""
+"""Open a headed persistent Chromium session for X."""
 
 from __future__ import annotations
 
 import asyncio
-import sys
 from pathlib import Path
 
 from playwright.async_api import async_playwright
 
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(PROJECT_ROOT))
+async def main():
 
-
-async def main() -> None:
-
-    # Perfil REAL do Edge
     edge_profile = (
         Path.home()
         / "AppData"
@@ -25,27 +19,34 @@ async def main() -> None:
         / "User Data"
     )
 
-    async with async_playwright() as playwright:
+    async with async_playwright() as p:
 
-        context = await playwright.chromium.launch_persistent_context(
+        print("Abrindo Edge...")
+
+        context = await p.chromium.launch_persistent_context(
             user_data_dir=str(edge_profile),
             channel="msedge",
             headless=False,
             locale="pt-BR",
+            args=[
+                "--profile-directory=Default",
+            ],
             viewport={
                 "width": 1440,
                 "height": 1000,
             },
-            args=[
-                "--profile-directory=Default",
-            ],
         )
 
-        page = (
-            context.pages[0]
-            if context.pages
-            else await context.new_page()
-        )
+        print("Edge aberto!")
+
+        print("Páginas detectadas:")
+        for page in context.pages:
+            print(page.url)
+
+        # Cria uma nova aba controlada pelo Playwright
+        page = await context.new_page()
+
+        print("Abrindo X...")
 
         await page.goto(
             "https://x.com/home",
@@ -53,17 +54,15 @@ async def main() -> None:
             timeout=60000,
         )
 
-        print("\nX aberto.")
-        print("Confirme se está logado.")
+        print("X carregado!")
+        print("Confira se está logado.")
 
         await asyncio.to_thread(
             input,
-            "\nPressione ENTER para salvar e fechar..."
+            "ENTER para fechar..."
         )
 
         await context.close()
-
-        print("Sessão salva.")
 
 
 if __name__ == "__main__":

@@ -15,7 +15,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 
 async def main() -> None:
 
-    # Pasta raiz dos perfis do Edge
+    # Perfil real do Edge
     edge_profile = (
         Path.home()
         / "AppData"
@@ -27,15 +27,6 @@ async def main() -> None:
 
     print("\nPerfil Edge utilizado:")
     print(edge_profile)
-
-    if not edge_profile.exists():
-        raise Exception("Pasta do Edge não encontrada.")
-
-    print("\nPerfis encontrados:")
-    for folder in edge_profile.iterdir():
-        if folder.is_dir():
-            print("-", folder.name)
-
 
     async with async_playwright() as playwright:
 
@@ -53,58 +44,31 @@ async def main() -> None:
             },
         )
 
-
-        # Verifica se os cookies do X foram carregados
-        cookies = await context.cookies()
-
-        print("\nQuantidade total de cookies:", len(cookies))
-
-        x_cookies = []
-
-        for cookie in cookies:
-            domain = cookie["domain"]
-
-            if "x.com" in domain or "twitter.com" in domain:
-                x_cookies.append(cookie)
-                print(
-                    "Cookie X encontrado:",
-                    cookie["name"],
-                    domain
-                )
-
-        if not x_cookies:
-            print("\nNenhum cookie do X encontrado.")
-            print("A sessão do X não está sendo carregada pelo Playwright.")
-        else:
-            print("\nSessão do X encontrada!")
-
-
+        # Pega a primeira página ou cria uma nova
         page = (
             context.pages[0]
             if context.pages
             else await context.new_page()
         )
 
-
+        # Abre diretamente o X
         await page.goto(
             "https://x.com/home",
             wait_until="domcontentloaded",
         )
 
-
-        print("\nNavegador aberto.")
-        print("Confira se o X está logado.")
+        print("\nPágina do X aberta.")
+        print("Confirme se a conta está logada corretamente.")
 
         await asyncio.to_thread(
             input,
-            "\nPressione ENTER para fechar..."
+            "\nPressione ENTER para salvar a sessão e fechar..."
         )
-
 
         await context.close()
 
-
-        print("\nFinalizado.")
+        print("\nSessão salva com sucesso!")
+        print(f"Perfil utilizado: {edge_profile}")
 
 
 if __name__ == "__main__":

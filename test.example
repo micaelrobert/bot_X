@@ -1,19 +1,12 @@
-"""Open a headed persistent Chromium session using the real Edge profile."""
-
 from __future__ import annotations
 
 import asyncio
-import sys
 from pathlib import Path
 
 from playwright.async_api import async_playwright
 
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(PROJECT_ROOT))
-
-
-async def main() -> None:
+async def main():
 
     edge_profile = (
         Path.home()
@@ -24,52 +17,42 @@ async def main() -> None:
         / "User Data"
     )
 
-    print("\nPerfil Edge utilizado:")
-    print(edge_profile)
+    print("Iniciando Playwright...")
 
-    async with async_playwright() as playwright:
+    async with async_playwright() as p:
 
-        context = await playwright.chromium.launch_persistent_context(
+        print("Abrindo Edge...")
+
+        context = await p.chromium.launch_persistent_context(
             user_data_dir=str(edge_profile),
             channel="msedge",
             headless=False,
-            locale="pt-BR",
             args=[
                 "--profile-directory=Default",
             ],
-            viewport={
-                "width": 1440,
-                "height": 1000,
-            },
+            timeout=120000,
         )
 
-        print("\nPáginas abertas:")
-        for p in context.pages:
-            print("-", p.url)
+        print("Contexto criado!")
 
-        # Usa a página que o Edge abriu
+        print("Páginas:")
+        for page in context.pages:
+            print(page.url)
+
         page = context.pages[0]
 
-        print("\nIndo para o X...")
+        print("Abrindo X...")
 
         await page.goto(
             "https://x.com/home",
-            wait_until="load",
-            timeout=60000,
+            timeout=60000
         )
 
-        print("\nX carregado!")
-        print("Verifique se está logado.")
+        print("X aberto!")
 
-        await asyncio.to_thread(
-            input,
-            "\nPressione ENTER para salvar e fechar..."
-        )
+        input("ENTER para fechar")
 
         await context.close()
 
-        print("\nSessão salva.")
 
-
-if __name__ == "__main__":
-    asyncio.run(main())
+asyncio.run(main())

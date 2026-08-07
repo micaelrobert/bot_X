@@ -1,0 +1,134 @@
+#1 tentativa
+"""Open a headed existing Edge session for the first X login."""
+
+from __future__ import annotations
+
+import asyncio
+import sys
+from pathlib import Path
+
+from playwright.async_api import async_playwright
+
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(PROJECT_ROOT))
+
+from config import Settings  # noqa: E402
+
+
+async def main() -> None:
+    settings = Settings.load()
+
+    async with async_playwright() as playwright:
+
+        print("Conectando ao Edge já aberto...")
+
+        browser = await playwright.chromium.connect_over_cdp(
+            "http://localhost:9222"
+        )
+
+        contexts = browser.contexts
+
+        if not contexts:
+            print("Nenhum contexto encontrado no Edge.")
+            return
+
+        context = contexts[0]
+
+        print("Abrindo nova guia no Edge existente...")
+
+        page = await context.new_page()
+
+        await page.goto(
+            f"{settings.x_base_url}/i/flow/login",
+            wait_until="domcontentloaded",
+        )
+
+        print("\n====================================")
+        print("Faça login manualmente no X.")
+        print("Complete 2FA/CAPTCHA se aparecer.")
+        print("Quando estiver na página inicial do X:")
+        print("volte aqui e pressione ENTER.")
+        print("====================================\n")
+
+        await asyncio.to_thread(
+            input,
+            "Pressione ENTER para finalizar..."
+        )
+
+        print("\nSessão salva automaticamente pelo Edge.")
+        print("Fechando apenas a guia criada pelo bot...")
+
+        await page.close()
+
+        print("Concluído!")
+
+
+if __name__ == "__main__":
+    asyncio.run(main())
+    
+#2 tentativa
+from __future__ import annotations
+
+import asyncio
+import sys
+from pathlib import Path
+
+from playwright.async_api import async_playwright
+
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(PROJECT_ROOT))
+
+from config import Settings  # noqa: E402
+
+
+async def main() -> None:
+    settings = Settings.load()
+
+    async with async_playwright() as playwright:
+
+        print("Conectando ao Edge aberto...")
+
+        browser = await playwright.chromium.connect_over_cdp(
+            "http://localhost:9222"
+        )
+
+        if not browser.contexts:
+            print("Nenhum perfil Edge encontrado.")
+            return
+
+        context = browser.contexts[0]
+
+        print("Criando nova aba...")
+
+        page = await context.new_page()
+
+        await page.goto(
+            f"{settings.x_base_url}/i/flow/login",
+            wait_until="domcontentloaded",
+        )
+
+        print("\n==============================")
+        print("Faça login no X.")
+        print("Finalize 2FA/CAPTCHA se aparecer.")
+        print("Quando estiver dentro da conta:")
+        print("FECHAR O TERMINAL NÃO É NECESSÁRIO.")
+        print("==============================\n")
+
+        # Mantém o script vivo sem usar input em thread
+        while True:
+            await asyncio.sleep(5)
+
+            try:
+                title = await page.title()
+
+                if "X" in title or "Twitter" in title:
+                    pass
+
+            except Exception:
+                break
+
+
+if __name__ == "__main__":
+    asyncio.run(main())

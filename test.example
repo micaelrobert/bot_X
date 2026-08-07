@@ -1,4 +1,4 @@
-"""Open the real Edge profile, confirm X login and save session."""
+"""Open real Edge profile and preserve X session."""
 
 from __future__ import annotations
 
@@ -13,9 +13,8 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT))
 
 
-async def main() -> None:
+async def main():
 
-    # Perfil REAL do Edge do usuário
     edge_profile = (
         Path.home()
         / "AppData"
@@ -24,9 +23,6 @@ async def main() -> None:
         / "Edge"
         / "User Data"
     )
-
-    print("\nUsando perfil real do Edge:")
-    print(edge_profile)
 
     async with async_playwright() as playwright:
 
@@ -37,37 +33,34 @@ async def main() -> None:
             locale="pt-BR",
             args=[
                 "--profile-directory=Default",
+                "--start-maximized",
             ],
-            viewport={
-                "width": 1440,
-                "height": 1000,
-            },
         )
 
-        page = (
-            context.pages[0]
-            if context.pages
-            else await context.new_page()
-        )
+        print("Contexto aberto")
 
+        # Pega a aba existente
+        page = context.pages[0]
+
+        print("URL inicial:", page.url)
+
+        # Força navegação
         await page.goto(
-            "https://x.com/home",
+            "https://x.com/i/flow/login",
             wait_until="domcontentloaded",
-            timeout=60000,
+            timeout=90000,
         )
 
-        print("\nPágina do X aberta.")
-        print("Confirme se a conta dele já está logada.")
-        print("NÃO faça login pelo script.")
+        print("URL depois:", page.url)
+
+        print("\nConfira se está logado no X.")
 
         await asyncio.to_thread(
             input,
-            "\nPressione ENTER para salvar a sessão e fechar..."
+            "ENTER para fechar e salvar..."
         )
 
         await context.close()
-
-        print("\nSessão confirmada e salva no perfil do Edge.")
 
 
 if __name__ == "__main__":

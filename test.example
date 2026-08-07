@@ -1,66 +1,47 @@
-"""Open real Edge profile and preserve X session."""
+"""Connect to an already-open Edge session (via CDP) and save the X session cookies."""
 
 from __future__ import annotations
 
 import asyncio
+import json
 import sys
 from pathlib import Path
 
 from playwright.async_api import async_playwright
 
-
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT))
 
+from config import Settings  # noqa: E402
 
-async def main():
 
-    edge_profile = (
-        Path.home()
-        / "AppData"
-        / "Local"
-        / "Microsoft"
-        / "Edge"
-        / "User Data"
-    )
-
+async def main() -> None:
+    settings = Settings.load()
     async with async_playwright() as playwright:
+        # conecta no Edge que já está aberto (rodado com --remote-debugging-port=9222)
+        browser = await playwright.chromium.connect_over_cdp("http://localhost:9222")
+        context = browser.contexts[0]  # perfil já logado
+        page = await context.new_page()
 
-        context = await playwright.chromium.launch_persistent_context(
-            user_data_dir=str(edge_profile),
-            channel="msedge",
-            headless=False,
-            locale="pt-BR",
-            args=[
-                "--profile-directory=Default",
-                "--start-maximized",
-            ],
-        )
-
-        print("Contexto aberto")
-
-        # Pega a aba existente
-        page = context.pages[0]
-
-        print("URL inicial:", page.url)
-
-        # Força navegação
         await page.goto(
-            "https://x.com/i/flow/login",
+            f"{settings.x_base_url}/home",
             wait_until="domcontentloaded",
-            timeout=90000,
         )
 
-        print("URL depois:", page.url)
-
-        print("\nConfira se está logado no X.")
-
+        print("\nVerifique na aba aberta se a sessão do X carregou (feed/home).")
         await asyncio.to_thread(
-            input,
-            "ENTER para fechar e salvar..."
+            input, "Pressione ENTER para salvar os cookies e fechar... "
         )
 
-        await context.close()
+        # salva os cookies da sessão logada
+        cookies = await context.cookies()
+        settings.x_profile_dir.mkdir(parents=True, exist_ok=True)
+        cookies_path = settings.x_profile_dir / "cookies.json"
+        with open(cookies_path, "w", encoding="utf-8") as f:
+            json.dump(cookies, f, indent=2)
+
+        await page.close()
+        print(f"\nCookies salvos em: {cookies_path}")
 
 
 if __name__ == "__main__":

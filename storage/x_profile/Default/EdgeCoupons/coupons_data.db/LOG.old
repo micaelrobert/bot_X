@@ -1,0 +1,15 @@
+2026/08/06-15:43:45.802 53e0 Reusing MANIFEST C:\Users\Micael\Documents\telegram_to_x_project - Copia\telegram_to_x\storage\x_profile\Default\EdgeCoupons/coupons_data.db/MANIFEST-000001
+2026/08/06-15:43:45.802 53e0 Recovering log #342
+2026/08/06-15:43:45.802 53e0 Reusing old log C:\Users\Micael\Documents\telegram_to_x_project - Copia\telegram_to_x\storage\x_profile\Default\EdgeCoupons/coupons_data.db/000342.log 
+2026/08/06-15:44:31.401 934 Level-0 table #346: started
+2026/08/06-15:44:31.614 934 Level-0 table #346: 683332 bytes OK
+2026/08/06-15:44:31.616 934 Delete type=0 #342
+2026/08/06-15:44:31.616 3edc Compacting 4@0 + 1@1 files
+2026/08/06-15:44:31.967 3edc Generated table #347@0: 4 keys, 683239 bytes
+2026/08/06-15:44:31.967 3edc Compacted 4@0 + 1@1 files => 683239 bytes
+2026/08/06-15:44:31.968 3edc compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/08/06-15:44:31.969 3edc Delete type=2 #334
+2026/08/06-15:44:31.969 3edc Delete type=2 #337
+2026/08/06-15:44:31.969 3edc Delete type=2 #340
+2026/08/06-15:44:31.969 3edc Delete type=2 #343
+2026/08/06-15:44:31.969 3edc Delete type=2 #346

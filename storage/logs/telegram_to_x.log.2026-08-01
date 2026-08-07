@@ -1,0 +1,1006 @@
+2026-08-01 01:38:09 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5035 | job=-1004411737916:message:5035
+2026-08-01 01:38:10 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5035
+2026-08-01 01:38:10 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5035 | candidatos=['foto direta']
+2026-08-01 01:38:10 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 01:38:10 | INFO     | media | Mídia baixada | job=-1004411737916:message:5035 | telegram_id=5035 | origem=foto direta | arquivo=photo_2026-08-01_04-38-10.jpg | bytes=80377
+2026-08-01 01:38:10 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T04:41:10.621944+00:00
+2026-08-01 01:38:12 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5035 | arquivos=['photo_2026-08-01_04-38-10.jpg:80377']
+2026-08-01 01:38:13 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5035 | quantidade=0
+2026-08-01 01:38:15 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5035 | arquivos=1
+2026-08-01 01:38:15 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5035
+2026-08-01 01:38:16 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5035] | x_id=2083411972461101557 | job=-1004411737916:message:5035 | midias=1
+2026-08-01 01:38:22 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5036 | job=-1004411737916:message:5036
+2026-08-01 01:38:22 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5036
+2026-08-01 01:38:22 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5036 | candidatos=['foto direta']
+2026-08-01 01:38:22 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 01:38:23 | INFO     | media | Mídia baixada | job=-1004411737916:message:5036 | telegram_id=5036 | origem=foto direta | arquivo=photo_2026-08-01_04-38-23.jpg | bytes=99958
+2026-08-01 01:38:23 | INFO     | rate_limiter | Aguardando intervalo mínimo entre publicações | espera=167s
+2026-08-01 01:38:54 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5037 | job=-1004411737916:message:5037
+2026-08-01 01:38:54 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5037
+2026-08-01 01:41:10 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T04:44:10.629337+00:00
+2026-08-01 01:41:12 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5036 | arquivos=['photo_2026-08-01_04-38-23.jpg:99958']
+2026-08-01 01:41:13 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5036 | quantidade=0
+2026-08-01 01:41:15 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5036 | arquivos=1
+2026-08-01 01:41:15 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5036
+2026-08-01 01:41:16 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5036] | x_id=2083412725904843203 | job=-1004411737916:message:5036 | midias=1
+2026-08-01 01:41:16 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5037 | candidatos=['foto direta']
+2026-08-01 01:41:16 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 01:41:17 | INFO     | media | Mídia baixada | job=-1004411737916:message:5037 | telegram_id=5037 | origem=foto direta | arquivo=photo_2026-08-01_04-38-54.jpg | bytes=62691
+2026-08-01 01:41:17 | INFO     | rate_limiter | Aguardando intervalo mínimo entre publicações | espera=173s
+2026-08-01 01:44:10 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T04:47:10.621308+00:00
+2026-08-01 01:44:12 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5037 | arquivos=['photo_2026-08-01_04-38-54.jpg:62691']
+2026-08-01 01:44:12 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5037 | quantidade=0
+2026-08-01 01:44:15 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5037 | arquivos=1
+2026-08-01 01:44:15 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5037
+2026-08-01 01:44:16 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5037] | x_id=2083413480858677381 | job=-1004411737916:message:5037 | midias=1
+2026-08-01 09:17:56 | INFO     | telegram_listener | Telegram conectado | conta=6249730895 | canal=@fazaboapromo | início=2026-08-01T12:17:55.978825+00:00 | último_id_inicial=5044
+2026-08-01 09:18:03 | INFO     | x_publisher | Navegador do X iniciado | headless=True (forçado)
+2026-08-01 09:18:03 | INFO     | __main__ | Serviço ativo e aguardando novas mensagens | intervalo=180s | recuperar_pendentes=False
+2026-08-01 09:19:59 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5045 | job=-1004411737916:message:5045
+2026-08-01 09:19:59 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5045
+2026-08-01 09:19:59 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5045 | candidatos=['foto direta']
+2026-08-01 09:19:59 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 09:19:59 | INFO     | media | Mídia baixada | job=-1004411737916:message:5045 | telegram_id=5045 | origem=foto direta | arquivo=photo_2026-08-01_12-20-01.jpg | bytes=28850
+2026-08-01 09:19:59 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T12:22:59.944295+00:00
+2026-08-01 09:20:02 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5045 | arquivos=['photo_2026-08-01_12-20-01.jpg:28850']
+2026-08-01 09:20:02 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5045 | quantidade=0
+2026-08-01 09:20:05 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5045 | arquivos=1
+2026-08-01 09:20:05 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5045
+2026-08-01 09:20:06 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5045] | x_id=2083528201062523105 | job=-1004411737916:message:5045 | midias=1
+2026-08-01 09:26:00 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5046 | job=-1004411737916:message:5046
+2026-08-01 09:26:00 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5046
+2026-08-01 09:26:00 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5046 | candidatos=['foto direta']
+2026-08-01 09:26:00 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 09:26:01 | INFO     | media | Mídia baixada | job=-1004411737916:message:5046 | telegram_id=5046 | origem=foto direta | arquivo=photo_2026-08-01_12-26-02.jpg | bytes=124164
+2026-08-01 09:26:01 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T12:29:01.638595+00:00
+2026-08-01 09:26:03 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5046 | arquivos=['photo_2026-08-01_12-26-02.jpg:124164']
+2026-08-01 09:26:03 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5046 | quantidade=0
+2026-08-01 09:26:06 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5046 | arquivos=1
+2026-08-01 09:26:06 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5046
+2026-08-01 09:26:07 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5046] | x_id=2083529715000688833 | job=-1004411737916:message:5046 | midias=1
+2026-08-01 09:31:59 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5047 | job=-1004411737916:message:5047
+2026-08-01 09:31:59 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5047
+2026-08-01 09:31:59 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5047 | candidatos=['foto direta']
+2026-08-01 09:31:59 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 09:32:00 | INFO     | media | Mídia baixada | job=-1004411737916:message:5047 | telegram_id=5047 | origem=foto direta | arquivo=photo_2026-08-01_12-32-01.jpg | bytes=104724
+2026-08-01 09:32:00 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T12:35:00.207197+00:00
+2026-08-01 09:32:02 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5047 | arquivos=['photo_2026-08-01_12-32-01.jpg:104724']
+2026-08-01 09:32:02 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5047 | quantidade=0
+2026-08-01 09:32:05 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5047 | arquivos=1
+2026-08-01 09:32:05 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5047
+2026-08-01 09:32:06 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5047] | x_id=2083531220357447788 | job=-1004411737916:message:5047 | midias=1
+2026-08-01 09:38:00 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5048 | job=-1004411737916:message:5048
+2026-08-01 09:38:00 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5048
+2026-08-01 09:38:00 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5048 | candidatos=['foto direta']
+2026-08-01 09:38:00 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 09:38:00 | INFO     | media | Mídia baixada | job=-1004411737916:message:5048 | telegram_id=5048 | origem=foto direta | arquivo=photo_2026-08-01_12-38-02.jpg | bytes=136950
+2026-08-01 09:38:00 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T12:41:00.906416+00:00
+2026-08-01 09:38:02 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5048 | arquivos=['photo_2026-08-01_12-38-02.jpg:136950']
+2026-08-01 09:38:02 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5048 | quantidade=0
+2026-08-01 09:38:05 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5048 | arquivos=1
+2026-08-01 09:38:05 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5048
+2026-08-01 09:38:06 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5048] | x_id=2083532731615486182 | job=-1004411737916:message:5048 | midias=1
+2026-08-01 09:43:59 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5049 | job=-1004411737916:message:5049
+2026-08-01 09:43:59 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5049
+2026-08-01 09:43:59 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5049 | candidatos=['foto direta']
+2026-08-01 09:43:59 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 09:44:00 | INFO     | media | Mídia baixada | job=-1004411737916:message:5049 | telegram_id=5049 | origem=foto direta | arquivo=photo_2026-08-01_12-44-01.jpg | bytes=125466
+2026-08-01 09:44:00 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T12:47:00.172966+00:00
+2026-08-01 09:44:01 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5049 | arquivos=['photo_2026-08-01_12-44-01.jpg:125466']
+2026-08-01 09:44:01 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5049 | quantidade=0
+2026-08-01 09:44:04 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5049 | arquivos=1
+2026-08-01 09:44:04 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5049
+2026-08-01 09:44:05 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5049] | x_id=2083534237609660729 | job=-1004411737916:message:5049 | midias=1
+2026-08-01 09:49:59 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5050 | job=-1004411737916:message:5050
+2026-08-01 09:49:59 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5050
+2026-08-01 09:49:59 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5050 | candidatos=['foto direta']
+2026-08-01 09:49:59 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 09:49:59 | INFO     | media | Mídia baixada | job=-1004411737916:message:5050 | telegram_id=5050 | origem=foto direta | arquivo=photo_2026-08-01_12-50-01.jpg | bytes=96280
+2026-08-01 09:49:59 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T12:52:59.895876+00:00
+2026-08-01 09:50:01 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5050 | arquivos=['photo_2026-08-01_12-50-01.jpg:96280']
+2026-08-01 09:50:01 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5050 | quantidade=0
+2026-08-01 09:50:04 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5050 | arquivos=1
+2026-08-01 09:50:04 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5050
+2026-08-01 09:50:05 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5050] | x_id=2083535747974398198 | job=-1004411737916:message:5050 | midias=1
+2026-08-01 09:55:58 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5051 | job=-1004411737916:message:5051
+2026-08-01 09:55:58 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5051
+2026-08-01 09:55:58 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5051 | candidatos=['foto direta']
+2026-08-01 09:55:58 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 09:55:59 | INFO     | media | Mídia baixada | job=-1004411737916:message:5051 | telegram_id=5051 | origem=foto direta | arquivo=photo_2026-08-01_12-56-00.jpg | bytes=22160
+2026-08-01 09:55:59 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T12:58:59.113218+00:00
+2026-08-01 09:56:00 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5051 | arquivos=['photo_2026-08-01_12-56-00.jpg:22160']
+2026-08-01 09:56:00 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5051 | quantidade=0
+2026-08-01 09:56:03 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5051 | arquivos=1
+2026-08-01 09:56:03 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5051
+2026-08-01 09:56:04 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5051] | x_id=2083537253444252041 | job=-1004411737916:message:5051 | midias=1
+2026-08-01 10:03:59 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5052 | job=-1004411737916:message:5052
+2026-08-01 10:03:59 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5052
+2026-08-01 10:03:59 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5052 | candidatos=['foto direta']
+2026-08-01 10:03:59 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 10:03:59 | INFO     | media | Mídia baixada | job=-1004411737916:message:5052 | telegram_id=5052 | origem=foto direta | arquivo=photo_2026-08-01_13-04-01.jpg | bytes=25551
+2026-08-01 10:03:59 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T13:06:59.855287+00:00
+2026-08-01 10:04:01 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5052 | arquivos=['photo_2026-08-01_13-04-01.jpg:25551']
+2026-08-01 10:04:01 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5052 | quantidade=0
+2026-08-01 10:04:04 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5052 | arquivos=1
+2026-08-01 10:04:04 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5052
+2026-08-01 10:04:05 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5052] | x_id=2083539270657061233 | job=-1004411737916:message:5052 | midias=1
+2026-08-01 10:09:59 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5053 | job=-1004411737916:message:5053
+2026-08-01 10:09:59 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5053
+2026-08-01 10:09:59 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5053 | candidatos=['foto direta']
+2026-08-01 10:09:59 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 10:09:59 | INFO     | media | Mídia baixada | job=-1004411737916:message:5053 | telegram_id=5053 | origem=foto direta | arquivo=photo_2026-08-01_13-10-01.jpg | bytes=35672
+2026-08-01 10:09:59 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T13:12:59.774715+00:00
+2026-08-01 10:10:01 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5053 | arquivos=['photo_2026-08-01_13-10-01.jpg:35672']
+2026-08-01 10:10:01 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5053 | quantidade=0
+2026-08-01 10:10:04 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5053 | arquivos=1
+2026-08-01 10:10:04 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5053
+2026-08-01 10:10:05 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5053] | x_id=2083540779960598541 | job=-1004411737916:message:5053 | midias=1
+2026-08-01 10:15:58 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5054 | job=-1004411737916:message:5054
+2026-08-01 10:15:58 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5054
+2026-08-01 10:15:59 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5054 | candidatos=['foto direta']
+2026-08-01 10:15:59 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 10:15:59 | INFO     | media | Mídia baixada | job=-1004411737916:message:5054 | telegram_id=5054 | origem=foto direta | arquivo=photo_2026-08-01_13-16-01.jpg | bytes=61719
+2026-08-01 10:15:59 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T13:18:59.447214+00:00
+2026-08-01 10:16:01 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5054 | arquivos=['photo_2026-08-01_13-16-01.jpg:61719']
+2026-08-01 10:16:01 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5054 | quantidade=0
+2026-08-01 10:16:04 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5054 | arquivos=1
+2026-08-01 10:16:04 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5054
+2026-08-01 10:16:05 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5054] | x_id=2083542288915894586 | job=-1004411737916:message:5054 | midias=1
+2026-08-01 10:21:58 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5055 | job=-1004411737916:message:5055
+2026-08-01 10:21:58 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5055
+2026-08-01 10:21:59 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5055 | candidatos=['foto direta']
+2026-08-01 10:21:59 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 10:21:59 | INFO     | media | Mídia baixada | job=-1004411737916:message:5055 | telegram_id=5055 | origem=foto direta | arquivo=photo_2026-08-01_13-22-01.jpg | bytes=91400
+2026-08-01 10:21:59 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T13:24:59.509278+00:00
+2026-08-01 10:22:01 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5055 | arquivos=['photo_2026-08-01_13-22-01.jpg:91400']
+2026-08-01 10:22:01 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5055 | quantidade=0
+2026-08-01 10:22:04 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5055 | arquivos=1
+2026-08-01 10:22:04 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5055
+2026-08-01 10:22:05 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5055] | x_id=2083543799867768887 | job=-1004411737916:message:5055 | midias=1
+2026-08-01 10:27:59 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5056 | job=-1004411737916:message:5056
+2026-08-01 10:27:59 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5056
+2026-08-01 10:27:59 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5056 | candidatos=['foto direta']
+2026-08-01 10:27:59 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 10:27:59 | INFO     | media | Mídia baixada | job=-1004411737916:message:5056 | telegram_id=5056 | origem=foto direta | arquivo=photo_2026-08-01_13-28-01.jpg | bytes=31177
+2026-08-01 10:27:59 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T13:30:59.820602+00:00
+2026-08-01 10:28:01 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5056 | arquivos=['photo_2026-08-01_13-28-01.jpg:31177']
+2026-08-01 10:28:01 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5056 | quantidade=0
+2026-08-01 10:28:04 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5056 | arquivos=1
+2026-08-01 10:28:04 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5056
+2026-08-01 10:28:05 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5056] | x_id=2083545309796270484 | job=-1004411737916:message:5056 | midias=1
+2026-08-01 10:35:00 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5057 | job=-1004411737916:message:5057
+2026-08-01 10:35:00 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5057
+2026-08-01 10:35:00 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5057 | candidatos=['foto direta']
+2026-08-01 10:35:00 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 10:35:01 | INFO     | media | Mídia baixada | job=-1004411737916:message:5057 | telegram_id=5057 | origem=foto direta | arquivo=photo_2026-08-01_13-35-02.jpg | bytes=210124
+2026-08-01 10:35:01 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T13:38:01.214607+00:00
+2026-08-01 10:35:02 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5057 | arquivos=['photo_2026-08-01_13-35-02.jpg:210124']
+2026-08-01 10:35:03 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5057 | quantidade=0
+2026-08-01 10:35:06 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5057 | arquivos=1
+2026-08-01 10:35:06 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5057
+2026-08-01 10:35:07 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5057] | x_id=2083547079629004871 | job=-1004411737916:message:5057 | midias=1
+2026-08-01 10:41:00 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5058 | job=-1004411737916:message:5058
+2026-08-01 10:41:00 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5058
+2026-08-01 10:41:00 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5058 | candidatos=['foto direta']
+2026-08-01 10:41:00 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 10:41:00 | INFO     | media | Mídia baixada | job=-1004411737916:message:5058 | telegram_id=5058 | origem=foto direta | arquivo=photo_2026-08-01_13-41-02.jpg | bytes=25431
+2026-08-01 10:41:00 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T13:44:00.777721+00:00
+2026-08-01 10:41:02 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5058 | arquivos=['photo_2026-08-01_13-41-02.jpg:25431']
+2026-08-01 10:41:02 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5058 | quantidade=0
+2026-08-01 10:41:05 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5058 | arquivos=1
+2026-08-01 10:41:05 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5058
+2026-08-01 10:41:06 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5058] | x_id=2083548585673588782 | job=-1004411737916:message:5058 | midias=1
+2026-08-01 10:46:59 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5059 | job=-1004411737916:message:5059
+2026-08-01 10:46:59 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5059
+2026-08-01 10:46:59 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5059 | candidatos=['foto direta']
+2026-08-01 10:46:59 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 10:47:00 | INFO     | media | Mídia baixada | job=-1004411737916:message:5059 | telegram_id=5059 | origem=foto direta | arquivo=photo_2026-08-01_13-47-01.jpg | bytes=81191
+2026-08-01 10:47:00 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T13:50:00.180061+00:00
+2026-08-01 10:47:01 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5059 | arquivos=['photo_2026-08-01_13-47-01.jpg:81191']
+2026-08-01 10:47:02 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5059 | quantidade=0
+2026-08-01 10:47:04 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5059 | arquivos=1
+2026-08-01 10:47:04 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5059
+2026-08-01 10:47:05 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5059] | x_id=2083550093966258617 | job=-1004411737916:message:5059 | midias=1
+2026-08-01 10:52:59 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5060 | job=-1004411737916:message:5060
+2026-08-01 10:52:59 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5060
+2026-08-01 10:52:59 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5060 | candidatos=['foto direta']
+2026-08-01 10:52:59 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 10:53:00 | INFO     | media | Mídia baixada | job=-1004411737916:message:5060 | telegram_id=5060 | origem=foto direta | arquivo=photo_2026-08-01_13-53-01.jpg | bytes=100517
+2026-08-01 10:53:00 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T13:56:00.053141+00:00
+2026-08-01 10:53:01 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5060 | arquivos=['photo_2026-08-01_13-53-01.jpg:100517']
+2026-08-01 10:53:01 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5060 | quantidade=0
+2026-08-01 10:53:04 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5060 | arquivos=1
+2026-08-01 10:53:04 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5060
+2026-08-01 10:53:05 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5060] | x_id=2083551603278164339 | job=-1004411737916:message:5060 | midias=1
+2026-08-01 11:06:00 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5061 | job=-1004411737916:message:5061
+2026-08-01 11:06:00 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5061
+2026-08-01 11:06:00 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5061 | candidatos=['foto direta']
+2026-08-01 11:06:00 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 11:06:00 | INFO     | media | Mídia baixada | job=-1004411737916:message:5061 | telegram_id=5061 | origem=foto direta | arquivo=photo_2026-08-01_14-06-02.jpg | bytes=61126
+2026-08-01 11:06:00 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T14:09:00.539686+00:00
+2026-08-01 11:06:02 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5061 | arquivos=['photo_2026-08-01_14-06-02.jpg:61126']
+2026-08-01 11:06:02 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5061 | quantidade=0
+2026-08-01 11:06:05 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5061 | arquivos=1
+2026-08-01 11:06:05 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5061
+2026-08-01 11:06:06 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5061] | x_id=2083554877209235749 | job=-1004411737916:message:5061 | midias=1
+2026-08-01 11:21:00 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5062 | job=-1004411737916:message:5062
+2026-08-01 11:21:00 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5062
+2026-08-01 11:21:00 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5062 | candidatos=['foto direta']
+2026-08-01 11:21:00 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 11:21:00 | INFO     | media | Mídia baixada | job=-1004411737916:message:5062 | telegram_id=5062 | origem=foto direta | arquivo=photo_2026-08-01_14-21-02.jpg | bytes=21084
+2026-08-01 11:21:00 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T14:24:00.954034+00:00
+2026-08-01 11:21:02 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5062 | arquivos=['photo_2026-08-01_14-21-02.jpg:21084']
+2026-08-01 11:21:02 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5062 | quantidade=0
+2026-08-01 11:21:05 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5062 | arquivos=1
+2026-08-01 11:21:05 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5062
+2026-08-01 11:21:06 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5062] | x_id=2083558653563478403 | job=-1004411737916:message:5062 | midias=1
+2026-08-01 11:31:59 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5063 | job=-1004411737916:message:5063
+2026-08-01 11:31:59 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5063
+2026-08-01 11:31:59 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5063 | candidatos=['foto direta']
+2026-08-01 11:31:59 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 11:32:00 | INFO     | media | Mídia baixada | job=-1004411737916:message:5063 | telegram_id=5063 | origem=foto direta | arquivo=photo_2026-08-01_14-32-01.jpg | bytes=205296
+2026-08-01 11:32:00 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T14:35:00.535031+00:00
+2026-08-01 11:32:02 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5063 | arquivos=['photo_2026-08-01_14-32-01.jpg:205296']
+2026-08-01 11:32:02 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5063 | quantidade=0
+2026-08-01 11:32:05 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5063 | arquivos=1
+2026-08-01 11:32:05 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5063
+2026-08-01 11:32:06 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5063] | x_id=2083561420419998151 | job=-1004411737916:message:5063 | midias=1
+2026-08-01 11:37:59 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5064 | job=-1004411737916:message:5064
+2026-08-01 11:37:59 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5064
+2026-08-01 11:37:59 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5064 | candidatos=['foto direta']
+2026-08-01 11:37:59 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 11:37:59 | INFO     | media | Mídia baixada | job=-1004411737916:message:5064 | telegram_id=5064 | origem=foto direta | arquivo=photo_2026-08-01_14-38-01.jpg | bytes=42167
+2026-08-01 11:37:59 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T14:40:59.612603+00:00
+2026-08-01 11:38:01 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5064 | arquivos=['photo_2026-08-01_14-38-01.jpg:42167']
+2026-08-01 11:38:01 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5064 | quantidade=0
+2026-08-01 11:38:04 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5064 | arquivos=1
+2026-08-01 11:38:04 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5064
+2026-08-01 11:38:05 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5064] | x_id=2083562926686851535 | job=-1004411737916:message:5064 | midias=1
+2026-08-01 11:43:58 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5065 | job=-1004411737916:message:5065
+2026-08-01 11:43:58 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5065
+2026-08-01 11:43:58 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5065 | candidatos=['foto direta']
+2026-08-01 11:43:58 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 11:43:59 | INFO     | media | Mídia baixada | job=-1004411737916:message:5065 | telegram_id=5065 | origem=foto direta | arquivo=photo_2026-08-01_14-44-00.jpg | bytes=35679
+2026-08-01 11:43:59 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T14:46:59.114993+00:00
+2026-08-01 11:44:00 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5065 | arquivos=['photo_2026-08-01_14-44-00.jpg:35679']
+2026-08-01 11:44:00 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5065 | quantidade=0
+2026-08-01 11:44:03 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5065 | arquivos=1
+2026-08-01 11:44:03 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5065
+2026-08-01 11:44:04 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5065] | x_id=2083564434140663947 | job=-1004411737916:message:5065 | midias=1
+2026-08-01 11:56:59 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5066 | job=-1004411737916:message:5066
+2026-08-01 11:56:59 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5066
+2026-08-01 11:56:59 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5066 | candidatos=['foto direta']
+2026-08-01 11:56:59 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 11:57:00 | INFO     | media | Mídia baixada | job=-1004411737916:message:5066 | telegram_id=5066 | origem=foto direta | arquivo=photo_2026-08-01_14-57-01.jpg | bytes=188236
+2026-08-01 11:57:00 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T15:00:00.454192+00:00
+2026-08-01 11:57:02 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5066 | arquivos=['photo_2026-08-01_14-57-01.jpg:188236']
+2026-08-01 11:57:02 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5066 | quantidade=0
+2026-08-01 11:57:05 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5066 | arquivos=1
+2026-08-01 11:57:05 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5066
+2026-08-01 11:57:06 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5066] | x_id=2083567710609301604 | job=-1004411737916:message:5066 | midias=1
+2026-08-01 12:28:59 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5067 | job=-1004411737916:message:5067
+2026-08-01 12:28:59 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5067
+2026-08-01 12:28:59 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5067 | candidatos=['foto direta']
+2026-08-01 12:28:59 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 12:29:00 | INFO     | media | Mídia baixada | job=-1004411737916:message:5067 | telegram_id=5067 | origem=foto direta | arquivo=photo_2026-08-01_15-29-01.jpg | bytes=50456
+2026-08-01 12:29:00 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T15:32:00.032962+00:00
+2026-08-01 12:29:01 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5067 | arquivos=['photo_2026-08-01_15-29-01.jpg:50456']
+2026-08-01 12:29:01 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5067 | quantidade=0
+2026-08-01 12:29:04 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5067 | arquivos=1
+2026-08-01 12:29:04 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5067
+2026-08-01 12:29:05 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5067] | x_id=2083575762028781657 | job=-1004411737916:message:5067 | midias=1
+2026-08-01 12:34:59 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5068 | job=-1004411737916:message:5068
+2026-08-01 12:34:59 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5068
+2026-08-01 12:34:59 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5068 | candidatos=['foto direta']
+2026-08-01 12:34:59 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 12:34:59 | INFO     | media | Mídia baixada | job=-1004411737916:message:5068 | telegram_id=5068 | origem=foto direta | arquivo=photo_2026-08-01_15-35-01.jpg | bytes=48112
+2026-08-01 12:34:59 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T15:37:59.519136+00:00
+2026-08-01 12:35:01 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5068 | arquivos=['photo_2026-08-01_15-35-01.jpg:48112']
+2026-08-01 12:35:01 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5068 | quantidade=0
+2026-08-01 12:35:04 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5068 | arquivos=1
+2026-08-01 12:35:04 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5068
+2026-08-01 12:35:05 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5068] | x_id=2083577271059693670 | job=-1004411737916:message:5068 | midias=1
+2026-08-01 12:40:59 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5069 | job=-1004411737916:message:5069
+2026-08-01 12:40:59 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5069
+2026-08-01 12:40:59 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5069 | candidatos=['foto direta']
+2026-08-01 12:40:59 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 12:41:00 | INFO     | media | Mídia baixada | job=-1004411737916:message:5069 | telegram_id=5069 | origem=foto direta | arquivo=photo_2026-08-01_15-41-01.jpg | bytes=192411
+2026-08-01 12:41:00 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T15:44:00.599978+00:00
+2026-08-01 12:41:02 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5069 | arquivos=['photo_2026-08-01_15-41-01.jpg:192411']
+2026-08-01 12:41:02 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5069 | quantidade=0
+2026-08-01 12:41:05 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5069 | arquivos=1
+2026-08-01 12:41:05 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5069
+2026-08-01 12:41:06 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5069] | x_id=2083578784813400167 | job=-1004411737916:message:5069 | midias=1
+2026-08-01 12:55:58 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5070 | job=-1004411737916:message:5070
+2026-08-01 12:55:58 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5070
+2026-08-01 12:55:58 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5070 | candidatos=['foto direta']
+2026-08-01 12:55:58 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 12:55:59 | INFO     | media | Mídia baixada | job=-1004411737916:message:5070 | telegram_id=5070 | origem=foto direta | arquivo=photo_2026-08-01_15-56-00.jpg | bytes=57112
+2026-08-01 12:55:59 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T15:58:59.243993+00:00
+2026-08-01 12:56:00 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5070 | arquivos=['photo_2026-08-01_15-56-00.jpg:57112']
+2026-08-01 12:56:01 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5070 | quantidade=0
+2026-08-01 12:56:03 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5070 | arquivos=1
+2026-08-01 12:56:04 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5070
+2026-08-01 12:56:05 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5070] | x_id=2083582554842476580 | job=-1004411737916:message:5070 | midias=1
+2026-08-01 13:01:59 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5071 | job=-1004411737916:message:5071
+2026-08-01 13:01:59 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5071
+2026-08-01 13:01:59 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5071 | candidatos=['foto direta']
+2026-08-01 13:01:59 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 13:02:00 | INFO     | media | Mídia baixada | job=-1004411737916:message:5071 | telegram_id=5071 | origem=foto direta | arquivo=photo_2026-08-01_16-02-01.jpg | bytes=194541
+2026-08-01 13:02:00 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T16:05:00.562941+00:00
+2026-08-01 13:02:02 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5071 | arquivos=['photo_2026-08-01_16-02-01.jpg:194541']
+2026-08-01 13:02:02 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5071 | quantidade=0
+2026-08-01 13:02:06 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5071 | arquivos=1
+2026-08-01 13:02:06 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5071
+2026-08-01 13:02:07 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5071] | x_id=2083584073490898968 | job=-1004411737916:message:5071 | midias=1
+2026-08-01 13:02:35 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5072 | job=-1004411737916:message:5072
+2026-08-01 13:02:35 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5072
+2026-08-01 13:02:36 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5072 | candidatos=['foto direta']
+2026-08-01 13:02:36 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 13:02:36 | INFO     | media | Mídia baixada | job=-1004411737916:message:5072 | telegram_id=5072 | origem=foto direta | arquivo=photo_2026-08-01_16-02-38.jpg | bytes=40495
+2026-08-01 13:02:36 | INFO     | rate_limiter | Aguardando intervalo mínimo entre publicações | espera=144s
+2026-08-01 13:02:48 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5073 | job=-1004411737916:message:5073
+2026-08-01 13:02:48 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5073
+2026-08-01 13:05:00 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T16:08:00.575368+00:00
+2026-08-01 13:05:02 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5072 | arquivos=['photo_2026-08-01_16-02-38.jpg:40495']
+2026-08-01 13:05:03 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5072 | quantidade=0
+2026-08-01 13:05:05 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5072 | arquivos=1
+2026-08-01 13:05:05 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5072
+2026-08-01 13:05:06 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5072] | x_id=2083584826255262147 | job=-1004411737916:message:5072 | midias=1
+2026-08-01 13:05:06 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5073 | candidatos=['foto direta']
+2026-08-01 13:05:06 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 13:05:07 | INFO     | media | Mídia baixada | job=-1004411737916:message:5073 | telegram_id=5073 | origem=foto direta | arquivo=photo_2026-08-01_16-02-50.jpg | bytes=157773
+2026-08-01 13:05:07 | INFO     | rate_limiter | Aguardando intervalo mínimo entre publicações | espera=173s
+2026-08-01 13:08:00 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T16:11:00.570563+00:00
+2026-08-01 13:08:02 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5073 | arquivos=['photo_2026-08-01_16-02-50.jpg:157773']
+2026-08-01 13:08:02 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5073 | quantidade=0
+2026-08-01 13:08:05 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5073 | arquivos=1
+2026-08-01 13:08:05 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5073
+2026-08-01 13:08:06 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5073] | x_id=2083585581167088024 | job=-1004411737916:message:5073 | midias=1
+2026-08-01 13:21:59 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5074 | job=-1004411737916:message:5074
+2026-08-01 13:21:59 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5074
+2026-08-01 13:21:59 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5074 | candidatos=['foto direta']
+2026-08-01 13:21:59 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 13:21:59 | INFO     | media | Mídia baixada | job=-1004411737916:message:5074 | telegram_id=5074 | origem=foto direta | arquivo=photo_2026-08-01_16-22-01.jpg | bytes=83522
+2026-08-01 13:21:59 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T16:24:59.879932+00:00
+2026-08-01 13:22:01 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5074 | arquivos=['photo_2026-08-01_16-22-01.jpg:83522']
+2026-08-01 13:22:01 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5074 | quantidade=0
+2026-08-01 13:22:04 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5074 | arquivos=1
+2026-08-01 13:22:04 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5074
+2026-08-01 13:22:05 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5074] | x_id=2083589098770477349 | job=-1004411737916:message:5074 | midias=1
+2026-08-01 13:28:24 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5075 | job=-1004411737916:message:5075
+2026-08-01 13:28:24 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5075
+2026-08-01 13:28:24 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5075 | candidatos=['foto direta']
+2026-08-01 13:28:24 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 13:28:25 | INFO     | media | Mídia baixada | job=-1004411737916:message:5075 | telegram_id=5075 | origem=foto direta | arquivo=photo_2026-08-01_16-28-26.jpg | bytes=38758
+2026-08-01 13:28:25 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T16:31:25.119110+00:00
+2026-08-01 13:28:35 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5075 | arquivos=['photo_2026-08-01_16-28-26.jpg:38758']
+2026-08-01 13:28:35 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5075 | quantidade=0
+2026-08-01 13:28:38 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5075 | arquivos=1
+2026-08-01 13:28:38 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5075
+2026-08-01 13:28:39 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5075] | x_id=2083590752949473456 | job=-1004411737916:message:5075 | midias=1
+2026-08-01 13:33:59 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5076 | job=-1004411737916:message:5076
+2026-08-01 13:33:59 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5076
+2026-08-01 13:33:59 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5076 | candidatos=['foto direta']
+2026-08-01 13:33:59 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 13:34:00 | INFO     | media | Mídia baixada | job=-1004411737916:message:5076 | telegram_id=5076 | origem=foto direta | arquivo=photo_2026-08-01_16-34-01.jpg | bytes=120788
+2026-08-01 13:34:00 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T16:37:00.016059+00:00
+2026-08-01 13:34:02 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5076 | arquivos=['photo_2026-08-01_16-34-01.jpg:120788']
+2026-08-01 13:34:02 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5076 | quantidade=0
+2026-08-01 13:34:05 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5076 | arquivos=1
+2026-08-01 13:34:05 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5076
+2026-08-01 13:34:06 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5076] | x_id=2083592123190853829 | job=-1004411737916:message:5076 | midias=1
+2026-08-01 13:39:58 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5077 | job=-1004411737916:message:5077
+2026-08-01 13:39:58 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5077
+2026-08-01 13:39:58 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5077 | candidatos=['foto direta']
+2026-08-01 13:39:58 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 13:39:59 | INFO     | media | Mídia baixada | job=-1004411737916:message:5077 | telegram_id=5077 | origem=foto direta | arquivo=photo_2026-08-01_16-40-00.jpg | bytes=19750
+2026-08-01 13:39:59 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T16:42:59.116500+00:00
+2026-08-01 13:40:01 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5077 | arquivos=['photo_2026-08-01_16-40-00.jpg:19750']
+2026-08-01 13:40:01 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5077 | quantidade=0
+2026-08-01 13:40:04 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5077 | arquivos=1
+2026-08-01 13:40:04 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5077
+2026-08-01 13:40:05 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5077] | x_id=2083593627708662205 | job=-1004411737916:message:5077 | midias=1
+2026-08-01 13:45:59 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5078 | job=-1004411737916:message:5078
+2026-08-01 13:45:59 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5078
+2026-08-01 13:45:59 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5078 | candidatos=['foto direta']
+2026-08-01 13:45:59 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 13:46:00 | INFO     | media | Mídia baixada | job=-1004411737916:message:5078 | telegram_id=5078 | origem=foto direta | arquivo=photo_2026-08-01_16-46-01.jpg | bytes=138288
+2026-08-01 13:46:00 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T16:49:00.293350+00:00
+2026-08-01 13:46:02 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5078 | arquivos=['photo_2026-08-01_16-46-01.jpg:138288']
+2026-08-01 13:46:02 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5078 | quantidade=0
+2026-08-01 13:46:05 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5078 | arquivos=1
+2026-08-01 13:46:05 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5078
+2026-08-01 13:46:06 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5078] | x_id=2083595142162776336 | job=-1004411737916:message:5078 | midias=1
+2026-08-01 13:51:59 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5079 | job=-1004411737916:message:5079
+2026-08-01 13:51:59 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5079
+2026-08-01 13:51:59 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5079 | candidatos=['foto direta']
+2026-08-01 13:51:59 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 13:51:59 | INFO     | media | Mídia baixada | job=-1004411737916:message:5079 | telegram_id=5079 | origem=foto direta | arquivo=photo_2026-08-01_16-52-01.jpg | bytes=45812
+2026-08-01 13:51:59 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T16:54:59.906315+00:00
+2026-08-01 13:52:02 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5079 | arquivos=['photo_2026-08-01_16-52-01.jpg:45812']
+2026-08-01 13:52:02 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5079 | quantidade=0
+2026-08-01 13:52:05 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5079 | arquivos=1
+2026-08-01 13:52:05 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5079
+2026-08-01 13:52:06 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5079] | x_id=2083596653123006975 | job=-1004411737916:message:5079 | midias=1
+2026-08-01 14:18:59 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5080 | job=-1004411737916:message:5080
+2026-08-01 14:18:59 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5080
+2026-08-01 14:18:59 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5080 | candidatos=['foto direta']
+2026-08-01 14:18:59 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 14:18:59 | INFO     | media | Mídia baixada | job=-1004411737916:message:5080 | telegram_id=5080 | origem=foto direta | arquivo=photo_2026-08-01_17-19-01.jpg | bytes=61623
+2026-08-01 14:18:59 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T17:21:59.677327+00:00
+2026-08-01 14:19:02 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5080 | arquivos=['photo_2026-08-01_17-19-01.jpg:61623']
+2026-08-01 14:19:03 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5080 | quantidade=0
+2026-08-01 14:19:05 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5080 | arquivos=1
+2026-08-01 14:19:05 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5080
+2026-08-01 14:19:07 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5080] | x_id=2083603451007668615 | job=-1004411737916:message:5080 | midias=1
+2026-08-01 14:22:11 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5081 | job=-1004411737916:message:5081
+2026-08-01 14:22:11 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5081
+2026-08-01 14:22:11 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5081 | candidatos=['foto direta']
+2026-08-01 14:22:11 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 14:22:11 | INFO     | media | Mídia baixada | job=-1004411737916:message:5081 | telegram_id=5081 | origem=foto direta | arquivo=photo_2026-08-01_17-22-13.jpg | bytes=64283
+2026-08-01 14:22:11 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T17:25:11.539848+00:00
+2026-08-01 14:22:13 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5081 | arquivos=['photo_2026-08-01_17-22-13.jpg:64283']
+2026-08-01 14:22:13 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5081 | quantidade=0
+2026-08-01 14:22:16 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5081 | arquivos=1
+2026-08-01 14:22:16 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5081
+2026-08-01 14:22:17 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5081] | x_id=2083604249317953917 | job=-1004411737916:message:5081 | midias=1
+2026-08-01 14:36:59 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5082 | job=-1004411737916:message:5082
+2026-08-01 14:36:59 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5082
+2026-08-01 14:36:59 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5082 | candidatos=['foto direta']
+2026-08-01 14:36:59 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 14:36:59 | INFO     | media | Mídia baixada | job=-1004411737916:message:5082 | telegram_id=5082 | origem=foto direta | arquivo=photo_2026-08-01_17-37-01.jpg | bytes=99595
+2026-08-01 14:36:59 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T17:39:59.858973+00:00
+2026-08-01 14:37:01 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5082 | arquivos=['photo_2026-08-01_17-37-01.jpg:99595']
+2026-08-01 14:37:01 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5082 | quantidade=0
+2026-08-01 14:37:04 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5082 | arquivos=1
+2026-08-01 14:37:04 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5082
+2026-08-01 14:37:05 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5082] | x_id=2083607974572916911 | job=-1004411737916:message:5082 | midias=1
+2026-08-01 14:42:59 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5083 | job=-1004411737916:message:5083
+2026-08-01 14:42:59 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5083
+2026-08-01 14:42:59 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5083 | candidatos=['foto direta']
+2026-08-01 14:42:59 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 14:43:00 | INFO     | media | Mídia baixada | job=-1004411737916:message:5083 | telegram_id=5083 | origem=foto direta | arquivo=photo_2026-08-01_17-43-01.jpg | bytes=245253
+2026-08-01 14:43:00 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T17:46:00.427461+00:00
+2026-08-01 14:43:02 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5083 | arquivos=['photo_2026-08-01_17-43-01.jpg:245253']
+2026-08-01 14:43:02 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5083 | quantidade=0
+2026-08-01 14:43:05 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5083 | arquivos=1
+2026-08-01 14:43:05 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5083
+2026-08-01 14:43:06 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5083] | x_id=2083609488762835301 | job=-1004411737916:message:5083 | midias=1
+2026-08-01 14:48:59 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5084 | job=-1004411737916:message:5084
+2026-08-01 14:48:59 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5084
+2026-08-01 14:48:59 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5084 | candidatos=['foto direta']
+2026-08-01 14:48:59 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 14:48:59 | INFO     | media | Mídia baixada | job=-1004411737916:message:5084 | telegram_id=5084 | origem=foto direta | arquivo=photo_2026-08-01_17-49-01.jpg | bytes=91289
+2026-08-01 14:48:59 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T17:51:59.701329+00:00
+2026-08-01 14:49:01 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5084 | arquivos=['photo_2026-08-01_17-49-01.jpg:91289']
+2026-08-01 14:49:01 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5084 | quantidade=0
+2026-08-01 14:49:04 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5084 | arquivos=1
+2026-08-01 14:49:04 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5084
+2026-08-01 14:49:05 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5084] | x_id=2083610994572423609 | job=-1004411737916:message:5084 | midias=1
+2026-08-01 15:05:58 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5085 | job=-1004411737916:message:5085
+2026-08-01 15:05:58 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5085
+2026-08-01 15:05:58 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5085 | candidatos=['foto direta']
+2026-08-01 15:05:58 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 15:05:58 | INFO     | media | Mídia baixada | job=-1004411737916:message:5085 | telegram_id=5085 | origem=foto direta | arquivo=photo_2026-08-01_18-06-00.jpg | bytes=29880
+2026-08-01 15:05:58 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T18:08:58.930680+00:00
+2026-08-01 15:06:01 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5085 | arquivos=['photo_2026-08-01_18-06-00.jpg:29880']
+2026-08-01 15:06:01 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5085 | quantidade=0
+2026-08-01 15:06:04 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5085 | arquivos=1
+2026-08-01 15:06:04 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5085
+2026-08-01 15:06:05 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5085] | x_id=2083615271646859670 | job=-1004411737916:message:5085 | midias=1
+2026-08-01 15:11:58 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5086 | job=-1004411737916:message:5086
+2026-08-01 15:11:58 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5086
+2026-08-01 15:11:58 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5086 | candidatos=['foto direta']
+2026-08-01 15:11:58 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 15:11:59 | INFO     | media | Mídia baixada | job=-1004411737916:message:5086 | telegram_id=5086 | origem=foto direta | arquivo=photo_2026-08-01_18-12-00.jpg | bytes=86774
+2026-08-01 15:11:59 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T18:14:59.129112+00:00
+2026-08-01 15:12:01 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5086 | arquivos=['photo_2026-08-01_18-12-00.jpg:86774']
+2026-08-01 15:12:02 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5086 | quantidade=0
+2026-08-01 15:12:05 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5086 | arquivos=1
+2026-08-01 15:12:05 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5086
+2026-08-01 15:12:06 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5086] | x_id=2083616785664811257 | job=-1004411737916:message:5086 | midias=1
+2026-08-01 15:17:59 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5087 | job=-1004411737916:message:5087
+2026-08-01 15:17:59 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5087
+2026-08-01 15:17:59 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5087 | candidatos=['foto direta']
+2026-08-01 15:17:59 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 15:18:01 | INFO     | media | Mídia baixada | job=-1004411737916:message:5087 | telegram_id=5087 | origem=foto direta | arquivo=photo_2026-08-01_18-18-01.jpg | bytes=268446
+2026-08-01 15:18:01 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T18:21:01.290421+00:00
+2026-08-01 15:18:03 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5087 | arquivos=['photo_2026-08-01_18-18-01.jpg:268446']
+2026-08-01 15:18:03 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5087 | quantidade=0
+2026-08-01 15:18:06 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5087 | arquivos=1
+2026-08-01 15:18:06 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5087
+2026-08-01 15:18:07 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5087] | x_id=2083618300374712340 | job=-1004411737916:message:5087 | midias=1
+2026-08-01 15:23:58 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5088 | job=-1004411737916:message:5088
+2026-08-01 15:23:58 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5088
+2026-08-01 15:23:58 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5088 | candidatos=['foto direta']
+2026-08-01 15:23:58 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 15:23:58 | INFO     | media | Mídia baixada | job=-1004411737916:message:5088 | telegram_id=5088 | origem=foto direta | arquivo=photo_2026-08-01_18-24-00.jpg | bytes=15034
+2026-08-01 15:23:58 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T18:26:58.928713+00:00
+2026-08-01 15:24:00 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5088 | arquivos=['photo_2026-08-01_18-24-00.jpg:15034']
+2026-08-01 15:24:00 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5088 | quantidade=0
+2026-08-01 15:24:03 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5088 | arquivos=1
+2026-08-01 15:24:03 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5088
+2026-08-01 15:24:04 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5088] | x_id=2083619799150612902 | job=-1004411737916:message:5088 | midias=1
+2026-08-01 15:30:58 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5089 | job=-1004411737916:message:5089
+2026-08-01 15:30:58 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5089
+2026-08-01 15:30:59 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5089 | candidatos=['foto direta']
+2026-08-01 15:30:59 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 15:30:59 | INFO     | media | Mídia baixada | job=-1004411737916:message:5089 | telegram_id=5089 | origem=foto direta | arquivo=photo_2026-08-01_18-31-01.jpg | bytes=27402
+2026-08-01 15:30:59 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T18:33:59.289555+00:00
+2026-08-01 15:31:01 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5089 | arquivos=['photo_2026-08-01_18-31-01.jpg:27402']
+2026-08-01 15:31:01 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5089 | quantidade=0
+2026-08-01 15:31:04 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5089 | arquivos=1
+2026-08-01 15:31:04 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5089
+2026-08-01 15:31:05 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5089] | x_id=2083621565015429601 | job=-1004411737916:message:5089 | midias=1
+2026-08-01 15:38:01 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5090 | job=-1004411737916:message:5090
+2026-08-01 15:38:01 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5090
+2026-08-01 15:38:01 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5090 | candidatos=['foto direta']
+2026-08-01 15:38:01 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 15:38:02 | INFO     | media | Mídia baixada | job=-1004411737916:message:5090 | telegram_id=5090 | origem=foto direta | arquivo=photo_2026-08-01_18-38-01.jpg | bytes=89568
+2026-08-01 15:38:02 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T18:41:02.255773+00:00
+2026-08-01 15:38:04 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5090 | arquivos=['photo_2026-08-01_18-38-01.jpg:89568']
+2026-08-01 15:38:04 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5090 | quantidade=0
+2026-08-01 15:38:07 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5090 | arquivos=1
+2026-08-01 15:38:07 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5090
+2026-08-01 15:38:08 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5090] | x_id=2083623327642316895 | job=-1004411737916:message:5090 | midias=1
+2026-08-01 15:44:01 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5091 | job=-1004411737916:message:5091
+2026-08-01 15:44:01 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5091
+2026-08-01 15:44:02 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5091 | candidatos=['foto direta']
+2026-08-01 15:44:02 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 15:44:02 | INFO     | media | Mídia baixada | job=-1004411737916:message:5091 | telegram_id=5091 | origem=foto direta | arquivo=photo_2026-08-01_18-44-01.jpg | bytes=33192
+2026-08-01 15:44:02 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T18:47:02.386676+00:00
+2026-08-01 15:44:10 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5091 | arquivos=['photo_2026-08-01_18-44-01.jpg:33192']
+2026-08-01 15:44:11 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5091 | quantidade=0
+2026-08-01 15:44:14 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5091 | arquivos=1
+2026-08-01 15:44:14 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5091
+2026-08-01 15:44:15 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5091] | x_id=2083624866452754525 | job=-1004411737916:message:5091 | midias=1
+2026-08-01 15:45:11 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5092 | job=-1004411737916:message:5092
+2026-08-01 15:45:11 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5092
+2026-08-01 15:45:11 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5092 | candidatos=['foto direta']
+2026-08-01 15:45:11 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 15:45:13 | INFO     | media | Mídia baixada | job=-1004411737916:message:5092 | telegram_id=5092 | origem=foto direta | arquivo=photo_2026-08-01_18-45-11.jpg | bytes=110175
+2026-08-01 15:45:13 | INFO     | rate_limiter | Aguardando intervalo mínimo entre publicações | espera=109s
+2026-08-01 15:45:30 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5093 | job=-1004411737916:message:5093
+2026-08-01 15:45:30 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5093
+2026-08-01 15:45:39 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5094 | job=-1004411737916:message:5094
+2026-08-01 15:45:39 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5094
+2026-08-01 15:47:02 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T18:50:02.387648+00:00
+2026-08-01 15:47:04 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5092 | arquivos=['photo_2026-08-01_18-45-11.jpg:110175']
+2026-08-01 15:47:04 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5092 | quantidade=0
+2026-08-01 15:47:07 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5092 | arquivos=1
+2026-08-01 15:47:07 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5092
+2026-08-01 15:47:08 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5092] | x_id=2083625591757046188 | job=-1004411737916:message:5092 | midias=1
+2026-08-01 15:47:08 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5093 | candidatos=['foto direta']
+2026-08-01 15:47:08 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 15:47:08 | INFO     | media | Mídia baixada | job=-1004411737916:message:5093 | telegram_id=5093 | origem=foto direta | arquivo=photo_2026-08-01_18-45-30.jpg | bytes=114050
+2026-08-01 15:47:08 | INFO     | rate_limiter | Aguardando intervalo mínimo entre publicações | espera=173s
+2026-08-01 15:50:02 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T18:53:02.398633+00:00
+2026-08-01 15:50:04 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5093 | arquivos=['photo_2026-08-01_18-45-30.jpg:114050']
+2026-08-01 15:50:04 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5093 | quantidade=0
+2026-08-01 15:50:07 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5093 | arquivos=1
+2026-08-01 15:50:07 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5093
+2026-08-01 15:50:08 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5093] | x_id=2083626346412986492 | job=-1004411737916:message:5093 | midias=1
+2026-08-01 15:50:08 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5094 | candidatos=['foto direta']
+2026-08-01 15:50:08 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 15:50:08 | INFO     | media | Mídia baixada | job=-1004411737916:message:5094 | telegram_id=5094 | origem=foto direta | arquivo=photo_2026-08-01_18-45-39.jpg | bytes=73616
+2026-08-01 15:50:08 | INFO     | rate_limiter | Aguardando intervalo mínimo entre publicações | espera=174s
+2026-08-01 15:53:02 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T18:56:02.396660+00:00
+2026-08-01 15:53:04 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5094 | arquivos=['photo_2026-08-01_18-45-39.jpg:73616']
+2026-08-01 15:53:05 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5094 | quantidade=0
+2026-08-01 15:53:07 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5094 | arquivos=1
+2026-08-01 15:53:07 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5094
+2026-08-01 15:53:11 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5094] | x_id=2083627108224434345 | job=-1004411737916:message:5094 | midias=1
+2026-08-01 16:01:01 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5095 | job=-1004411737916:message:5095
+2026-08-01 16:01:01 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5095
+2026-08-01 16:01:01 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5095 | candidatos=['foto direta']
+2026-08-01 16:01:01 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 16:01:02 | INFO     | media | Mídia baixada | job=-1004411737916:message:5095 | telegram_id=5095 | origem=foto direta | arquivo=photo_2026-08-01_19-01-01.jpg | bytes=58603
+2026-08-01 16:01:02 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T19:04:02.060772+00:00
+2026-08-01 16:01:04 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5095 | arquivos=['photo_2026-08-01_19-01-01.jpg:58603']
+2026-08-01 16:01:04 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5095 | quantidade=0
+2026-08-01 16:01:07 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5095 | arquivos=1
+2026-08-01 16:01:07 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5095
+2026-08-01 16:01:08 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5095] | x_id=2083629114867499291 | job=-1004411737916:message:5095 | midias=1
+2026-08-01 16:03:03 | INFO     | telethon.client.updates | Got difference for account updates
+2026-08-01 16:11:01 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5096 | job=-1004411737916:message:5096
+2026-08-01 16:11:01 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5096
+2026-08-01 16:11:01 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5096 | candidatos=['foto direta']
+2026-08-01 16:11:01 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 16:11:01 | INFO     | media | Mídia baixada | job=-1004411737916:message:5096 | telegram_id=5096 | origem=foto direta | arquivo=photo_2026-08-01_19-11-01.jpg | bytes=22746
+2026-08-01 16:11:01 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T19:14:01.941199+00:00
+2026-08-01 16:11:03 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5096 | arquivos=['photo_2026-08-01_19-11-01.jpg:22746']
+2026-08-01 16:11:04 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5096 | quantidade=0
+2026-08-01 16:11:06 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5096 | arquivos=1
+2026-08-01 16:11:06 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5096
+2026-08-01 16:11:08 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5096] | x_id=2083631630640447588 | job=-1004411737916:message:5096 | midias=1
+2026-08-01 16:25:01 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5097 | job=-1004411737916:message:5097
+2026-08-01 16:25:01 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5097
+2026-08-01 16:25:01 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5097 | candidatos=['foto direta']
+2026-08-01 16:25:01 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 16:25:02 | INFO     | media | Mídia baixada | job=-1004411737916:message:5097 | telegram_id=5097 | origem=foto direta | arquivo=photo_2026-08-01_19-25-01.jpg | bytes=185290
+2026-08-01 16:25:02 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T19:28:02.233482+00:00
+2026-08-01 16:25:04 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5097 | arquivos=['photo_2026-08-01_19-25-01.jpg:185290']
+2026-08-01 16:25:04 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5097 | quantidade=0
+2026-08-01 16:25:07 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5097 | arquivos=1
+2026-08-01 16:25:07 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5097
+2026-08-01 16:25:08 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5097] | x_id=2083635154451329499 | job=-1004411737916:message:5097 | midias=1
+2026-08-01 16:29:00 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5098 | job=-1004411737916:message:5098
+2026-08-01 16:29:01 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5098
+2026-08-01 16:29:01 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5098 | candidatos=['foto direta']
+2026-08-01 16:29:01 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 16:29:01 | INFO     | media | Mídia baixada | job=-1004411737916:message:5098 | telegram_id=5098 | origem=foto direta | arquivo=photo_2026-08-01_19-29-00.jpg | bytes=89224
+2026-08-01 16:29:01 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T19:32:01.564235+00:00
+2026-08-01 16:29:03 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5098 | arquivos=['photo_2026-08-01_19-29-00.jpg:89224']
+2026-08-01 16:29:03 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5098 | quantidade=0
+2026-08-01 16:29:06 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5098 | arquivos=1
+2026-08-01 16:29:06 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5098
+2026-08-01 16:29:07 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5098] | x_id=2083636159247221062 | job=-1004411737916:message:5098 | midias=1
+2026-08-01 16:33:30 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5099 | job=-1004411737916:message:5099
+2026-08-01 16:33:30 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5099
+2026-08-01 16:33:30 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5099 | candidatos=['foto direta']
+2026-08-01 16:33:30 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 16:33:30 | INFO     | media | Mídia baixada | job=-1004411737916:message:5099 | telegram_id=5099 | origem=foto direta | arquivo=photo_2026-08-01_19-33-30.jpg | bytes=34889
+2026-08-01 16:33:30 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T19:36:30.936169+00:00
+2026-08-01 16:33:32 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5099 | arquivos=['photo_2026-08-01_19-33-30.jpg:34889']
+2026-08-01 16:33:32 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5099 | quantidade=0
+2026-08-01 16:33:35 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5099 | arquivos=1
+2026-08-01 16:33:35 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5099
+2026-08-01 16:33:36 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5099] | x_id=2083637286147707121 | job=-1004411737916:message:5099 | midias=1
+2026-08-01 16:35:01 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5100 | job=-1004411737916:message:5100
+2026-08-01 16:35:01 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5100
+2026-08-01 16:35:01 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5100 | candidatos=['foto direta']
+2026-08-01 16:35:01 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 16:35:01 | INFO     | media | Mídia baixada | job=-1004411737916:message:5100 | telegram_id=5100 | origem=foto direta | arquivo=photo_2026-08-01_19-35-01.jpg | bytes=39862
+2026-08-01 16:35:01 | INFO     | rate_limiter | Aguardando intervalo mínimo entre publicações | espera=89s
+2026-08-01 16:36:30 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T19:39:30.939050+00:00
+2026-08-01 16:36:32 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5100 | arquivos=['photo_2026-08-01_19-35-01.jpg:39862']
+2026-08-01 16:36:32 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5100 | quantidade=0
+2026-08-01 16:36:35 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5100 | arquivos=1
+2026-08-01 16:36:35 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5100
+2026-08-01 16:36:36 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5100] | x_id=2083638043303444985 | job=-1004411737916:message:5100 | midias=1
+2026-08-01 16:38:36 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5101 | job=-1004411737916:message:5101
+2026-08-01 16:38:36 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5101
+2026-08-01 16:38:36 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5101 | candidatos=['foto direta']
+2026-08-01 16:38:36 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 16:38:37 | INFO     | media | Mídia baixada | job=-1004411737916:message:5101 | telegram_id=5101 | origem=foto direta | arquivo=photo_2026-08-01_19-38-36.jpg | bytes=41081
+2026-08-01 16:38:37 | INFO     | rate_limiter | Aguardando intervalo mínimo entre publicações | espera=54s
+2026-08-01 16:39:30 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T19:42:30.942031+00:00
+2026-08-01 16:39:32 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5101 | arquivos=['photo_2026-08-01_19-38-36.jpg:41081']
+2026-08-01 16:39:32 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5101 | quantidade=0
+2026-08-01 16:39:35 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5101 | arquivos=1
+2026-08-01 16:39:35 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5101
+2026-08-01 16:39:36 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5101] | x_id=2083638796164235283 | job=-1004411737916:message:5101 | midias=1
+2026-08-01 16:58:00 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5102 | job=-1004411737916:message:5102
+2026-08-01 16:58:00 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5102
+2026-08-01 16:58:01 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5102 | candidatos=['foto direta']
+2026-08-01 16:58:01 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 16:58:01 | INFO     | media | Mídia baixada | job=-1004411737916:message:5102 | telegram_id=5102 | origem=foto direta | arquivo=photo_2026-08-01_19-58-00.jpg | bytes=40019
+2026-08-01 16:58:01 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T20:01:01.487447+00:00
+2026-08-01 16:58:04 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5102 | arquivos=['photo_2026-08-01_19-58-00.jpg:40019']
+2026-08-01 16:58:06 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5102 | quantidade=0
+2026-08-01 16:58:08 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5102 | arquivos=1
+2026-08-01 16:58:09 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5102
+2026-08-01 16:58:10 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5102] | x_id=2083643468107190640 | job=-1004411737916:message:5102 | midias=1
+2026-08-01 17:04:02 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5103 | job=-1004411737916:message:5103
+2026-08-01 17:04:02 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5103
+2026-08-01 17:04:02 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5103 | candidatos=['foto direta']
+2026-08-01 17:04:02 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 17:04:02 | INFO     | media | Mídia baixada | job=-1004411737916:message:5103 | telegram_id=5103 | origem=foto direta | arquivo=photo_2026-08-01_20-04-01.jpg | bytes=48179
+2026-08-01 17:04:02 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T20:07:02.644446+00:00
+2026-08-01 17:04:05 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5103 | arquivos=['photo_2026-08-01_20-04-01.jpg:48179']
+2026-08-01 17:04:06 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5103 | quantidade=0
+2026-08-01 17:04:10 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5103 | arquivos=1
+2026-08-01 17:04:10 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5103
+2026-08-01 17:04:12 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5103] | x_id=2083644985283432608 | job=-1004411737916:message:5103 | midias=1
+2026-08-01 17:23:00 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5104 | job=-1004411737916:message:5104
+2026-08-01 17:23:01 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5104
+2026-08-01 17:23:01 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5104 | candidatos=['foto direta']
+2026-08-01 17:23:01 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 17:23:01 | INFO     | media | Mídia baixada | job=-1004411737916:message:5104 | telegram_id=5104 | origem=foto direta | arquivo=photo_2026-08-01_20-23-00.jpg | bytes=18394
+2026-08-01 17:23:02 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T20:26:01.906945+00:00
+2026-08-01 17:23:05 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5104 | arquivos=['photo_2026-08-01_20-23-00.jpg:18394']
+2026-08-01 17:23:08 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5104 | quantidade=0
+2026-08-01 17:23:10 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5104 | arquivos=1
+2026-08-01 17:23:10 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5104
+2026-08-01 17:23:12 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5104] | x_id=2083649767205167539 | job=-1004411737916:message:5104 | midias=1
+2026-08-01 17:33:01 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5105 | job=-1004411737916:message:5105
+2026-08-01 17:33:01 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5105
+2026-08-01 17:33:01 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5105 | candidatos=['foto direta']
+2026-08-01 17:33:01 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 17:33:02 | INFO     | media | Mídia baixada | job=-1004411737916:message:5105 | telegram_id=5105 | origem=foto direta | arquivo=photo_2026-08-01_20-33-01.jpg | bytes=27385
+2026-08-01 17:33:02 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T20:36:02.082446+00:00
+2026-08-01 17:33:05 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5105 | arquivos=['photo_2026-08-01_20-33-01.jpg:27385']
+2026-08-01 17:33:05 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5105 | quantidade=0
+2026-08-01 17:33:09 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5105 | arquivos=1
+2026-08-01 17:33:09 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5105
+2026-08-01 17:33:10 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5105] | x_id=2083652278372712519 | job=-1004411737916:message:5105 | midias=1
+2026-08-01 17:51:00 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5106 | job=-1004411737916:message:5106
+2026-08-01 17:51:00 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5106
+2026-08-01 17:51:00 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5106 | candidatos=['foto direta']
+2026-08-01 17:51:00 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 17:51:01 | INFO     | media | Mídia baixada | job=-1004411737916:message:5106 | telegram_id=5106 | origem=foto direta | arquivo=photo_2026-08-01_20-51-00.jpg | bytes=13372
+2026-08-01 17:51:01 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T20:54:01.236948+00:00
+2026-08-01 17:51:04 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5106 | arquivos=['photo_2026-08-01_20-51-00.jpg:13372']
+2026-08-01 17:51:05 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5106 | quantidade=0
+2026-08-01 17:51:10 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5106 | arquivos=1
+2026-08-01 17:51:10 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5106
+2026-08-01 17:51:11 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5106] | x_id=2083656811089903750 | job=-1004411737916:message:5106 | midias=1
+2026-08-01 17:57:03 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5107 | job=-1004411737916:message:5107
+2026-08-01 17:57:03 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5107
+2026-08-01 17:57:03 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5107 | candidatos=['foto direta']
+2026-08-01 17:57:03 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 17:57:03 | INFO     | media | Mídia baixada | job=-1004411737916:message:5107 | telegram_id=5107 | origem=foto direta | arquivo=photo_2026-08-01_20-57-03.jpg | bytes=48981
+2026-08-01 17:57:03 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T21:00:03.653948+00:00
+2026-08-01 17:57:05 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5107 | arquivos=['photo_2026-08-01_20-57-03.jpg:48981']
+2026-08-01 17:57:06 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5107 | quantidade=0
+2026-08-01 17:57:09 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5107 | arquivos=1
+2026-08-01 17:57:10 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5107
+2026-08-01 17:57:11 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5107] | x_id=2083658320091472084 | job=-1004411737916:message:5107 | midias=1
+2026-08-01 18:03:01 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5108 | job=-1004411737916:message:5108
+2026-08-01 18:03:01 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5108
+2026-08-01 18:03:01 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5108 | candidatos=['foto direta']
+2026-08-01 18:03:01 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 18:03:02 | INFO     | media | Mídia baixada | job=-1004411737916:message:5108 | telegram_id=5108 | origem=foto direta | arquivo=photo_2026-08-01_21-03-01.jpg | bytes=108558
+2026-08-01 18:03:02 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T21:06:02.332447+00:00
+2026-08-01 18:03:04 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5108 | arquivos=['photo_2026-08-01_21-03-01.jpg:108558']
+2026-08-01 18:03:05 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5108 | quantidade=0
+2026-08-01 18:03:08 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5108 | arquivos=1
+2026-08-01 18:03:08 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5108
+2026-08-01 18:03:09 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5108] | x_id=2083659824512807396 | job=-1004411737916:message:5108 | midias=1
+2026-08-01 18:14:00 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5109 | job=-1004411737916:message:5109
+2026-08-01 18:14:00 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5109
+2026-08-01 18:14:01 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5109 | candidatos=['foto direta']
+2026-08-01 18:14:01 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 18:14:01 | INFO     | media | Mídia baixada | job=-1004411737916:message:5109 | telegram_id=5109 | origem=foto direta | arquivo=photo_2026-08-01_21-14-00.jpg | bytes=13727
+2026-08-01 18:14:01 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T21:17:01.306448+00:00
+2026-08-01 18:14:04 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5109 | arquivos=['photo_2026-08-01_21-14-00.jpg:13727']
+2026-08-01 18:14:05 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5109 | quantidade=0
+2026-08-01 18:14:10 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5109 | arquivos=1
+2026-08-01 18:14:10 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5109
+2026-08-01 18:14:11 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5109] | x_id=2083662598671647051 | job=-1004411737916:message:5109 | midias=1
+2026-08-01 18:20:02 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5110 | job=-1004411737916:message:5110
+2026-08-01 18:20:02 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5110
+2026-08-01 18:20:02 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5110 | candidatos=['foto direta']
+2026-08-01 18:20:02 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 18:20:03 | INFO     | media | Mídia baixada | job=-1004411737916:message:5110 | telegram_id=5110 | origem=foto direta | arquivo=photo_2026-08-01_21-20-02.jpg | bytes=91400
+2026-08-01 18:20:03 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T21:23:03.493447+00:00
+2026-08-01 18:20:06 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5110 | arquivos=['photo_2026-08-01_21-20-02.jpg:91400']
+2026-08-01 18:20:08 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5110 | quantidade=0
+2026-08-01 18:20:11 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5110 | arquivos=1
+2026-08-01 18:20:11 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5110
+2026-08-01 18:20:12 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5110] | x_id=2083664114975412586 | job=-1004411737916:message:5110 | midias=1
+2026-08-01 18:43:00 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5111 | job=-1004411737916:message:5111
+2026-08-01 18:43:00 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5111
+2026-08-01 18:43:00 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5111 | candidatos=['foto direta']
+2026-08-01 18:43:00 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 18:43:01 | INFO     | media | Mídia baixada | job=-1004411737916:message:5111 | telegram_id=5111 | origem=foto direta | arquivo=photo_2026-08-01_21-43-00.jpg | bytes=142322
+2026-08-01 18:43:01 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T21:46:01.135690+00:00
+2026-08-01 18:43:02 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5111 | arquivos=['photo_2026-08-01_21-43-00.jpg:142322']
+2026-08-01 18:43:03 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5111 | quantidade=0
+2026-08-01 18:43:06 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5111 | arquivos=1
+2026-08-01 18:43:06 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5111
+2026-08-01 18:43:07 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5111] | x_id=2083669880834777581 | job=-1004411737916:message:5111 | midias=1
+2026-08-01 19:02:57 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5112 | job=-1004411737916:message:5112
+2026-08-01 19:02:57 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5112
+2026-08-01 19:02:57 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5112 | candidatos=['foto direta']
+2026-08-01 19:02:57 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 19:02:58 | INFO     | media | Mídia baixada | job=-1004411737916:message:5112 | telegram_id=5112 | origem=foto direta | arquivo=photo_2026-08-01_22-02-57.jpg | bytes=119204
+2026-08-01 19:02:58 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T22:05:58.143173+00:00
+2026-08-01 19:03:00 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5112 | arquivos=['photo_2026-08-01_22-02-57.jpg:119204']
+2026-08-01 19:03:00 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5112 | quantidade=0
+2026-08-01 19:03:03 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5112 | arquivos=1
+2026-08-01 19:03:03 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5112
+2026-08-01 19:03:04 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5112] | x_id=2083674901408350401 | job=-1004411737916:message:5112 | midias=1
+2026-08-01 19:05:01 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5113 | job=-1004411737916:message:5113
+2026-08-01 19:05:01 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5113
+2026-08-01 19:05:01 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5113 | candidatos=['foto direta']
+2026-08-01 19:05:01 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 19:05:01 | INFO     | media | Mídia baixada | job=-1004411737916:message:5113 | telegram_id=5113 | origem=foto direta | arquivo=photo_2026-08-01_22-05-01.jpg | bytes=86092
+2026-08-01 19:05:01 | INFO     | rate_limiter | Aguardando intervalo mínimo entre publicações | espera=56s
+2026-08-01 19:05:58 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T22:08:58.130105+00:00
+2026-08-01 19:05:59 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5113 | arquivos=['photo_2026-08-01_22-05-01.jpg:86092']
+2026-08-01 19:05:59 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5113 | quantidade=0
+2026-08-01 19:06:02 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5113 | arquivos=1
+2026-08-01 19:06:02 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5113
+2026-08-01 19:06:03 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5113] | x_id=2083675653367341333 | job=-1004411737916:message:5113 | midias=1
+2026-08-01 19:15:31 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5114 | job=-1004411737916:message:5114
+2026-08-01 19:15:31 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5114
+2026-08-01 19:15:31 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5114 | candidatos=['foto direta']
+2026-08-01 19:15:31 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 19:15:32 | INFO     | media | Mídia baixada | job=-1004411737916:message:5114 | telegram_id=5114 | origem=foto direta | arquivo=photo_2026-08-01_22-15-31.jpg | bytes=119606
+2026-08-01 19:15:32 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T22:18:32.085031+00:00
+2026-08-01 19:15:33 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5114 | arquivos=['photo_2026-08-01_22-15-31.jpg:119606']
+2026-08-01 19:15:33 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5114 | quantidade=0
+2026-08-01 19:15:36 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5114 | arquivos=1
+2026-08-01 19:15:36 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5114
+2026-08-01 19:15:37 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5114] | x_id=2083678061761794358 | job=-1004411737916:message:5114 | midias=1
+2026-08-01 19:28:00 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5115 | job=-1004411737916:message:5115
+2026-08-01 19:28:00 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5115
+2026-08-01 19:28:00 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5115 | candidatos=['foto direta']
+2026-08-01 19:28:00 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 19:28:01 | INFO     | media | Mídia baixada | job=-1004411737916:message:5115 | telegram_id=5115 | origem=foto direta | arquivo=photo_2026-08-01_22-28-00.jpg | bytes=20500
+2026-08-01 19:28:01 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T22:31:01.075391+00:00
+2026-08-01 19:28:02 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5115 | arquivos=['photo_2026-08-01_22-28-00.jpg:20500']
+2026-08-01 19:28:03 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5115 | quantidade=0
+2026-08-01 19:28:05 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5115 | arquivos=1
+2026-08-01 19:28:05 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5115
+2026-08-01 19:28:06 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5115] | x_id=2083681201961697335 | job=-1004411737916:message:5115 | midias=1
+2026-08-01 19:28:18 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5116 | job=-1004411737916:message:5116
+2026-08-01 19:28:18 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5116
+2026-08-01 19:28:18 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5116 | candidatos=['foto direta']
+2026-08-01 19:28:18 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 19:28:19 | INFO     | media | Mídia baixada | job=-1004411737916:message:5116 | telegram_id=5116 | origem=foto direta | arquivo=photo_2026-08-01_22-28-18.jpg | bytes=204638
+2026-08-01 19:28:19 | INFO     | rate_limiter | Aguardando intervalo mínimo entre publicações | espera=161s
+2026-08-01 19:31:01 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-01T22:34:01.084287+00:00
+2026-08-01 19:31:02 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5116 | arquivos=['photo_2026-08-01_22-28-18.jpg:204638']
+2026-08-01 19:31:02 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5116 | quantidade=0
+2026-08-01 19:31:05 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5116 | arquivos=1
+2026-08-01 19:31:05 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5116
+2026-08-01 19:31:06 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5116] | x_id=2083681957234221544 | job=-1004411737916:message:5116 | midias=1
+2026-08-01 21:14:00 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5117 | job=-1004411737916:message:5117
+2026-08-01 21:14:00 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5117
+2026-08-01 21:14:00 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5117 | candidatos=['foto direta']
+2026-08-01 21:14:00 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 21:14:01 | INFO     | media | Mídia baixada | job=-1004411737916:message:5117 | telegram_id=5117 | origem=foto direta | arquivo=photo_2026-08-02_00-14-00.jpg | bytes=19346
+2026-08-01 21:14:01 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-02T00:17:01.085104+00:00
+2026-08-01 21:14:03 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5117 | arquivos=['photo_2026-08-02_00-14-00.jpg:19346']
+2026-08-01 21:14:03 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5117 | quantidade=0
+2026-08-01 21:14:06 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5117 | arquivos=1
+2026-08-01 21:14:06 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5117
+2026-08-01 21:14:07 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5117] | x_id=2083707880646090904 | job=-1004411737916:message:5117 | midias=1
+2026-08-01 21:35:00 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5118 | job=-1004411737916:message:5118
+2026-08-01 21:35:00 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5118
+2026-08-01 21:35:00 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5118 | candidatos=['foto direta']
+2026-08-01 21:35:00 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 21:35:01 | INFO     | media | Mídia baixada | job=-1004411737916:message:5118 | telegram_id=5118 | origem=foto direta | arquivo=photo_2026-08-02_00-35-00.jpg | bytes=13454
+2026-08-01 21:35:01 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-02T00:38:01.091068+00:00
+2026-08-01 21:35:02 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5118 | arquivos=['photo_2026-08-02_00-35-00.jpg:13454']
+2026-08-01 21:35:02 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5118 | quantidade=0
+2026-08-01 21:35:05 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5118 | arquivos=1
+2026-08-01 21:35:05 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5118
+2026-08-01 21:35:06 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5118] | x_id=2083713163988455634 | job=-1004411737916:message:5118 | midias=1
+2026-08-01 21:38:40 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5119 | job=-1004411737916:message:5119
+2026-08-01 21:38:40 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5119
+2026-08-01 21:38:40 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5119 | candidatos=['foto direta']
+2026-08-01 21:38:40 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 21:38:40 | INFO     | media | Mídia baixada | job=-1004411737916:message:5119 | telegram_id=5119 | origem=foto direta | arquivo=photo_2026-08-02_00-38-40.jpg | bytes=8858
+2026-08-01 21:38:40 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-02T00:41:40.392109+00:00
+2026-08-01 21:38:41 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5119 | arquivos=['photo_2026-08-02_00-38-40.jpg:8858']
+2026-08-01 21:38:42 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5119 | quantidade=0
+2026-08-01 21:38:44 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5119 | arquivos=1
+2026-08-01 21:38:45 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5119
+2026-08-01 21:38:46 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5119] | x_id=2083714084092969359 | job=-1004411737916:message:5119 | midias=1
+2026-08-01 21:54:01 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5120 | job=-1004411737916:message:5120
+2026-08-01 21:54:01 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5120
+2026-08-01 21:54:01 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5120 | candidatos=['foto direta']
+2026-08-01 21:54:01 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 21:54:01 | INFO     | media | Mídia baixada | job=-1004411737916:message:5120 | telegram_id=5120 | origem=foto direta | arquivo=photo_2026-08-02_00-54-01.jpg | bytes=29425
+2026-08-01 21:54:01 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-02T00:57:01.444761+00:00
+2026-08-01 21:54:03 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5120 | arquivos=['photo_2026-08-02_00-54-01.jpg:29425']
+2026-08-01 21:54:03 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5120 | quantidade=0
+2026-08-01 21:54:06 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5120 | arquivos=1
+2026-08-01 21:54:06 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5120
+2026-08-01 21:54:07 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5120] | x_id=2083717947348934795 | job=-1004411737916:message:5120 | midias=1
+2026-08-01 22:00:01 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5121 | job=-1004411737916:message:5121
+2026-08-01 22:00:01 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5121
+2026-08-01 22:00:01 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5121 | candidatos=['foto direta']
+2026-08-01 22:00:01 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 22:00:01 | INFO     | media | Mídia baixada | job=-1004411737916:message:5121 | telegram_id=5121 | origem=foto direta | arquivo=photo_2026-08-02_01-00-01.jpg | bytes=69883
+2026-08-01 22:00:01 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-02T01:03:01.752842+00:00
+2026-08-01 22:00:03 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5121 | arquivos=['photo_2026-08-02_01-00-01.jpg:69883']
+2026-08-01 22:00:03 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5121 | quantidade=0
+2026-08-01 22:00:06 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5121 | arquivos=1
+2026-08-01 22:00:06 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5121
+2026-08-01 22:00:07 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5121] | x_id=2083719457453625828 | job=-1004411737916:message:5121 | midias=1
+2026-08-01 22:07:02 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5122 | job=-1004411737916:message:5122
+2026-08-01 22:07:02 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5122
+2026-08-01 22:07:02 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5122 | candidatos=['foto direta']
+2026-08-01 22:07:02 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 22:07:02 | INFO     | media | Mídia baixada | job=-1004411737916:message:5122 | telegram_id=5122 | origem=foto direta | arquivo=photo_2026-08-02_01-07-02.jpg | bytes=63072
+2026-08-01 22:07:02 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-02T01:10:02.961507+00:00
+2026-08-01 22:07:04 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5122 | arquivos=['photo_2026-08-02_01-07-02.jpg:63072']
+2026-08-01 22:07:04 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5122 | quantidade=0
+2026-08-01 22:07:07 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5122 | arquivos=1
+2026-08-01 22:07:07 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5122
+2026-08-01 22:07:08 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5122] | x_id=2083721223993795056 | job=-1004411737916:message:5122 | midias=1
+2026-08-01 22:13:27 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5123 | job=-1004411737916:message:5123
+2026-08-01 22:13:27 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5123
+2026-08-01 22:13:27 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5123 | candidatos=['foto direta']
+2026-08-01 22:13:27 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 22:13:27 | INFO     | media | Mídia baixada | job=-1004411737916:message:5123 | telegram_id=5123 | origem=foto direta | arquivo=photo_2026-08-02_01-13-27.jpg | bytes=60716
+2026-08-01 22:13:27 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-02T01:16:27.595482+00:00
+2026-08-01 22:13:29 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5123 | arquivos=['photo_2026-08-02_01-13-27.jpg:60716']
+2026-08-01 22:13:29 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5123 | quantidade=0
+2026-08-01 22:13:32 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5123 | arquivos=1
+2026-08-01 22:13:32 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5123
+2026-08-01 22:13:33 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5123] | x_id=2083722838305878314 | job=-1004411737916:message:5123 | midias=1
+2026-08-01 22:33:07 | INFO     | telethon.client.updates | Got difference for account updates
+2026-08-01 22:58:01 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5124 | job=-1004411737916:message:5124
+2026-08-01 22:58:01 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5124
+2026-08-01 22:58:01 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5124 | candidatos=['foto direta']
+2026-08-01 22:58:01 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 22:58:01 | INFO     | media | Mídia baixada | job=-1004411737916:message:5124 | telegram_id=5124 | origem=foto direta | arquivo=photo_2026-08-02_01-58-01.jpg | bytes=81468
+2026-08-01 22:58:01 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-02T02:01:01.906178+00:00
+2026-08-01 22:58:03 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5124 | arquivos=['photo_2026-08-02_01-58-01.jpg:81468']
+2026-08-01 22:58:03 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5124 | quantidade=0
+2026-08-01 22:58:06 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5124 | arquivos=1
+2026-08-01 22:58:06 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5124
+2026-08-01 22:58:07 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5124] | x_id=2083734055082672172 | job=-1004411737916:message:5124 | midias=1
+2026-08-01 23:10:01 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5125 | job=-1004411737916:message:5125
+2026-08-01 23:10:01 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5125
+2026-08-01 23:10:01 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5125 | candidatos=['foto direta']
+2026-08-01 23:10:01 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 23:10:01 | INFO     | media | Mídia baixada | job=-1004411737916:message:5125 | telegram_id=5125 | origem=foto direta | arquivo=photo_2026-08-02_02-10-01.jpg | bytes=77435
+2026-08-01 23:10:01 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-02T02:13:01.680144+00:00
+2026-08-01 23:10:03 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5125 | arquivos=['photo_2026-08-02_02-10-01.jpg:77435']
+2026-08-01 23:10:03 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5125 | quantidade=0
+2026-08-01 23:10:06 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5125 | arquivos=1
+2026-08-01 23:10:06 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5125
+2026-08-01 23:10:07 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5125] | x_id=2083737074423710188 | job=-1004411737916:message:5125 | midias=1
+2026-08-01 23:16:01 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5126 | job=-1004411737916:message:5126
+2026-08-01 23:16:01 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5126
+2026-08-01 23:16:01 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5126 | candidatos=['foto direta']
+2026-08-01 23:16:01 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 23:16:02 | INFO     | media | Mídia baixada | job=-1004411737916:message:5126 | telegram_id=5126 | origem=foto direta | arquivo=photo_2026-08-02_02-16-01.jpg | bytes=136698
+2026-08-01 23:16:02 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-02T02:19:02.156281+00:00
+2026-08-01 23:16:03 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5126 | arquivos=['photo_2026-08-02_02-16-01.jpg:136698']
+2026-08-01 23:16:04 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5126 | quantidade=0
+2026-08-01 23:16:06 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5126 | arquivos=1
+2026-08-01 23:16:06 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5126
+2026-08-01 23:16:07 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5126] | x_id=2083738586717769814 | job=-1004411737916:message:5126 | midias=1
+2026-08-01 23:22:02 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5127 | job=-1004411737916:message:5127
+2026-08-01 23:22:02 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5127
+2026-08-01 23:22:02 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5127 | candidatos=['foto direta']
+2026-08-01 23:22:02 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 23:22:03 | INFO     | media | Mídia baixada | job=-1004411737916:message:5127 | telegram_id=5127 | origem=foto direta | arquivo=photo_2026-08-02_02-22-02.jpg | bytes=100439
+2026-08-01 23:22:03 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-02T02:25:03.052033+00:00
+2026-08-01 23:22:04 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5127 | arquivos=['photo_2026-08-02_02-22-02.jpg:100439']
+2026-08-01 23:22:04 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5127 | quantidade=0
+2026-08-01 23:22:07 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5127 | arquivos=1
+2026-08-01 23:22:07 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5127
+2026-08-01 23:22:08 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5127] | x_id=2083740100421189959 | job=-1004411737916:message:5127 | midias=1
+2026-08-01 23:28:01 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5128 | job=-1004411737916:message:5128
+2026-08-01 23:28:01 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5128
+2026-08-01 23:28:01 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5128 | candidatos=['foto direta']
+2026-08-01 23:28:01 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 23:28:01 | INFO     | media | Mídia baixada | job=-1004411737916:message:5128 | telegram_id=5128 | origem=foto direta | arquivo=photo_2026-08-02_02-28-01.jpg | bytes=117658
+2026-08-01 23:28:01 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-02T02:31:01.830072+00:00
+2026-08-01 23:28:03 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5128 | arquivos=['photo_2026-08-02_02-28-01.jpg:117658']
+2026-08-01 23:28:03 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5128 | quantidade=0
+2026-08-01 23:28:06 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5128 | arquivos=1
+2026-08-01 23:28:06 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5128
+2026-08-01 23:28:07 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5128] | x_id=2083741605559685326 | job=-1004411737916:message:5128 | midias=1
+2026-08-01 23:34:01 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5129 | job=-1004411737916:message:5129
+2026-08-01 23:34:01 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5129
+2026-08-01 23:34:01 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5129 | candidatos=['foto direta']
+2026-08-01 23:34:01 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 23:34:01 | INFO     | media | Mídia baixada | job=-1004411737916:message:5129 | telegram_id=5129 | origem=foto direta | arquivo=photo_2026-08-02_02-34-01.jpg | bytes=35815
+2026-08-01 23:34:01 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-02T02:37:01.433433+00:00
+2026-08-01 23:34:02 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5129 | arquivos=['photo_2026-08-02_02-34-01.jpg:35815']
+2026-08-01 23:34:03 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5129 | quantidade=0
+2026-08-01 23:34:06 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5129 | arquivos=1
+2026-08-01 23:34:06 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5129
+2026-08-01 23:34:07 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5129] | x_id=2083743114745860288 | job=-1004411737916:message:5129 | midias=1
+2026-08-01 23:40:01 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5130 | job=-1004411737916:message:5130
+2026-08-01 23:40:01 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5130
+2026-08-01 23:40:01 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5130 | candidatos=['foto direta']
+2026-08-01 23:40:01 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 23:40:01 | INFO     | media | Mídia baixada | job=-1004411737916:message:5130 | telegram_id=5130 | origem=foto direta | arquivo=photo_2026-08-02_02-40-01.jpg | bytes=54657
+2026-08-01 23:40:01 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-02T02:43:01.535372+00:00
+2026-08-01 23:40:03 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5130 | arquivos=['photo_2026-08-02_02-40-01.jpg:54657']
+2026-08-01 23:40:03 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5130 | quantidade=0
+2026-08-01 23:40:06 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5130 | arquivos=1
+2026-08-01 23:40:06 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5130
+2026-08-01 23:40:06 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5130] | x_id=2083744623042724270 | job=-1004411737916:message:5130 | midias=1
+2026-08-01 23:56:01 | INFO     | telegram_listener | Nova mensagem recebida | telegram_id=5131 | job=-1004411737916:message:5131
+2026-08-01 23:56:01 | INFO     | queue_manager | Mensagem adicionada à fila | job=-1004411737916:message:5131
+2026-08-01 23:56:01 | INFO     | media | Mídia detectada no Telegram | job=-1004411737916:message:5131 | candidatos=['foto direta']
+2026-08-01 23:56:01 | INFO     | telethon.client.downloads | Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-08-01 23:56:02 | INFO     | media | Mídia baixada | job=-1004411737916:message:5131 | telegram_id=5131 | origem=foto direta | arquivo=photo_2026-08-02_02-56-01.jpg | bytes=152652
+2026-08-01 23:56:02 | INFO     | rate_limiter | Horário de publicação reservado | próximo_envio_após=2026-08-02T02:59:02.160814+00:00
+2026-08-01 23:56:03 | INFO     | x_publisher | Preparando mídia para o X | job=-1004411737916:message:5131 | arquivos=['photo_2026-08-02_02-56-01.jpg:152652']
+2026-08-01 23:56:03 | INFO     | x_publisher | Arquivos selecionados no input do X | job=-1004411737916:message:5131 | quantidade=0
+2026-08-01 23:56:06 | INFO     | x_publisher | Anexo confirmado no compositor do X | job=-1004411737916:message:5131 | arquivos=1
+2026-08-01 23:56:06 | INFO     | x_publisher | Publicando no X... | job=-1004411737916:message:5131
+2026-08-01 23:56:07 | INFO     | x_publisher | Publicado com sucesso | telegram_ids=[5131] | x_id=2083748652661547268 | job=-1004411737916:message:5131 | midias=1

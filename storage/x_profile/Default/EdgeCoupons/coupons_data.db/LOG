@@ -1,0 +1,6 @@
+2026/08/07-07:04:36.140 dcc Reusing MANIFEST C:\Users\Micael\Documents\telegram_to_x_project - Copia\telegram_to_x\storage\x_profile\Default\EdgeCoupons/coupons_data.db/MANIFEST-000001
+2026/08/07-07:04:36.141 dcc Recovering log #345
+2026/08/07-07:04:36.141 dcc Reusing old log C:\Users\Micael\Documents\telegram_to_x_project - Copia\telegram_to_x\storage\x_profile\Default\EdgeCoupons/coupons_data.db/000345.log 
+2026/08/07-08:33:05.556 3bcc Level-0 table #350: started
+2026/08/07-08:33:05.561 3bcc Level-0 table #350: 683332 bytes OK
+2026/08/07-08:33:05.562 3bcc Delete type=0 #345

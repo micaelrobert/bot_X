@@ -1,0 +1,361 @@
+================================================================================
+GUIA DE INSTALAÇÃO - BOT TELEGRAM TO X (TWITTER)
+================================================================================
+
+Este guia explica como instalar e configurar o bot em um computador novo.
+
+================================================================================
+PRÉ-REQUISITOS
+================================================================================
+
+1. Windows 10 ou 11 (64 bits)
+2. Python 3.11 ou superior instalado
+3. Git (opcional, para baixar o projeto)
+4. Conta no Telegram com acesso ao canal desejado
+5. Conta no X (Twitter) para publicar
+
+================================================================================
+PASSO 1: INSTALAR PYTHON
+================================================================================
+
+1. Acesse: https://www.python.org/downloads/
+2. Baixe a versão mais recente do Python 3.x
+3. Durante a instalação, MARQUE a opção "Add Python to PATH"
+4. Clique em "Install Now"
+5. Aguarde a conclusão da instalação
+
+VERIFICAÇÃO:
+- Abra o Prompt de Comando (cmd)
+- Digite: python --version
+- Deve aparecer a versão instalada (ex: Python 3.11.0)
+
+================================================================================
+PASSO 2: BAIXAR O PROJETO
+================================================================================
+
+OPÇÃO A - Usando Git (recomendado):
+1. Instale o Git em: https://git-scm.com/download/win
+2. Abra o Prompt de Comando
+3. Navegue até a pasta onde quer instalar:
+   cd C:\Users\SeuNome\Documents
+4. Clone o repositório:
+   git clone <URL_DO_REPOSITORIO>
+5. Entre na pasta do projeto:
+   cd telegram_to_x_project
+
+OPÇÃO B - Sem Git:
+1. Baixe o projeto como ZIP
+2. Extraia o ZIP em uma pasta de sua escolha
+3. Abra o Prompt de Comando
+4. Navegue até a pasta extraída:
+   cd C:\caminho\para\telegram_to_x_project
+
+================================================================================
+PASSO 3: INSTALAR DEPENDÊNCIAS
+================================================================================
+
+1. No Prompt de Comando, dentro da pasta do projeto, execute:
+
+   python -m pip install -r requirements.txt
+
+2. Aguarde a instalação de todas as bibliotecas:
+   - Telethon (para Telegram)
+   - Playwright (para automação do X)
+   - python-dotenv (para configurações)
+   - aiohttp (para download de mídias)
+
+3. Instale o Playwright:
+
+   python -m playwright install
+
+OBS: O bot usa o Microsoft Edge (que já vem instalado no Windows).
+     O comando acima instalará apenas o Playwright, sem necessidade de baixar
+     navegadores adicionais, pois o Edge já está presente no sistema.
+
+================================================================================
+PASSO 4: OBTER CREDENCIAIS DO TELEGRAM
+================================================================================
+
+1. Acesse: https://my.telegram.org
+2. Faça login com seu número de telefone
+3. Clique em "API development tools"
+4. Preencha o formulário:
+   - App title: Nome do seu bot (ex: MeuBot)
+   - Short name: Nome curto
+   - Platform: Desktop
+   - Description: Descrição qualquer
+5. Clique em "Create application"
+6. Anote as seguintes informações:
+   - api_id (número)
+   - api_hash (string longa)
+
+OBS: Você também precisará do seu número de telefone no formato internacional
+     (ex: +5511999999999)
+
+================================================================================
+PASSO 5: OBTER CREDENCIAIS DO X (TWITTER)
+================================================================================
+
+1. Acesse: https://developer.twitter.com
+2. Faça login com sua conta do X
+3. Crie um projeto e um app (se ainda não tiver)
+4. Anote as seguintes informações:
+   - Username da conta que vai publicar
+   - Senha da conta
+   - Email da conta (se tiver 2FA)
+
+IMPORTANTE: O bot usa a interface web do X, não a API oficial.
+            Você precisa das credenciais de LOGIN, não de tokens de API.
+
+================================================================================
+PASSO 6: CONFIGURAR O ARQUIVO .env
+================================================================================
+
+1. Na pasta do projeto, copie o arquivo .env.example para .env:
+
+   copy .env.example .env
+
+2. Abra o arquivo .env em um editor de texto (Notepad, VS Code, etc.)
+
+3. Preencha com suas credenciais:
+
+   # CREDENCIAIS DO TELEGRAM
+   API_ID=1234567                          # Seu api_id do Telegram
+   API_HASH=abc123def456...                # Seu api_hash do Telegram
+   CHANNEL=-1001234567890                  # ID do canal (veja abaixo como obter)
+   TELEGRAM_PHONE=+5511999999999           # Seu telefone com código do país
+   TELEGRAM_2FA_PASSWORD=                  # Senha do 2FA (se tiver)
+
+   # CREDENCIAIS DO X (TWITTER)
+   TWITTER_USERNAME=seu_usuario            # @seu_usuario (sem @)
+   TWITTER_PASSWORD=sua_senha              # Sua senha do X
+   TWITTER_EMAIL=seu_email@email.com       # Email da conta (opcional mas recomendado)
+   X_AUTO_LOGIN=true                       # Fazer login automático
+   X_HEADLESS=true                         # Rodar sem interface gráfica
+
+   # CONFIGURAÇÕES DO X
+   X_BASE_URL=https://x.com                # URL base do X
+   X_CHAR_LIMIT=280                        # Limite de caracteres
+   X_MAX_IMAGES=4                          # Máximo de imagens por post
+   X_NAVIGATION_TIMEOUT_MS=45000           # Timeout de navegação (45s)
+   X_UPLOAD_TIMEOUT_MS=300000              # Timeout de upload (300s = 5min)
+
+   # CONFIGURAÇÕES DE RETRY
+   RETRY_BASE_SECONDS=5                    # Tempo base de retry (5s)
+   RETRY_MAX_SECONDS=300                   # Tempo máximo de retry (5min)
+   STARTUP_GRACE_SECONDS=0                 # Tempo de graça no startup
+   PUBLISH_INTERVAL_SECONDS=600            # Intervalo entre publicações (10min)
+
+   # COMPORTAMENTO
+   RECOVER_PENDING_ON_START=true           # Recuperar jobs pendentes ao iniciar
+   LOG_LEVEL=INFO                          # Nível de log (INFO, DEBUG, WARNING)
+
+COMO OBTER O ID DO CANAL DO TELEGRAM:
+
+1. Abra o Telegram e vá para o canal desejado
+2. Clique no nome do canal no topo
+3. Clique em "Copiar link do canal"
+4. O link será algo como: https://t.me/canalpublico
+5. Se for um canal público, use o username: @canalpublico
+6. Se for um canal privado, você precisará do ID numérico:
+   - Adicione o bot @username_to_id_bot ao canal
+   - O bot retornará o ID numérico (ex: -1001234567890)
+   - Use esse ID no campo CHANNEL
+
+================================================================================
+PASSO 7: FAZER LOGIN NO X (TWITTER)
+================================================================================
+
+1. Execute o script de login:
+
+   python scripts/x_login.py
+
+2. O navegador abrirá automaticamente
+3. Faça login manualmente na página do X
+4. Se houver 2FA, insira o código
+5. Após login bem-sucedido, feche o navegador
+6. O perfil de login será salvo em: storage/x_profile/
+
+OBS: Este passo é OBRIGATÓRIO. O bot usa o perfil salvo para publicar.
+
+================================================================================
+PASSO 8: TESTAR A CONFIGURAÇÃO
+================================================================================
+
+1. Verifique se o arquivo .env está preenchido corretamente
+2. Execute o bot em modo de teste:
+
+   python app.py
+
+3. O bot deve:
+   - Conectar ao Telegram
+   - Iniciar o navegador do X
+   - Aguardar mensagens no canal
+
+4. Envie uma mensagem de teste no canal
+5. Verifique se o bot detecta a mensagem nos logs
+6. Verifique se a mensagem é publicada no X
+
+PARA PARAR O BOT:
+- Pressione CTRL+C no Prompt de Comando
+
+================================================================================
+PASSO 9: CONFIGURAR COMO SERVIÇO (OPCIONAL)
+================================================================================
+
+Para o bot rodar automaticamente ao ligar o PC:
+
+1. Baixe o NSSM (Non-Sucking Service Manager):
+   https://nssm.cc/download
+
+2. Extraia o nssm.exe em C:\nssm\
+
+3. Abra o Prompt de Comando como Administrador
+4. Execute:
+
+   C:\nssm\nssm.exe install TelegramToX
+
+5. Preencha os campos:
+   - Path: C:\caminho\para\python.exe
+   - Startup directory: C:\caminho\para\pasta\do\projeto
+   - Arguments: app.py
+
+6. Clique em "Install service"
+
+7. Inicie o serviço:
+   net start TelegramToX
+
+PARA PARAR O SERVIÇO:
+   net stop TelegramToX
+
+PARA REMOVER O SERVIÇO:
+   C:\nssm\nssm.exe remove TelegramToX confirm
+
+================================================================================
+ESTRUTURA DE ARQUIVOS
+================================================================================
+
+telegram_to_x_project/
+├── .env                          # Configurações (CRIAR ESTE ARQUIVO)
+├── app.py                        # Aplicação principal
+├── config.py                     # Carregamento de configurações
+├── queue_manager.py              # Gerenciamento de fila
+├── telegram_listener.py          # Listener do Telegram
+├── x_publisher.py                # Publicador do X
+├── media.py                      # Gerenciamento de mídias
+├── storage/                      # Dados persistentes
+│   ├── published.json            # Mensagens já publicadas
+│   ├── pending.json              # Fila de mensagens
+│   ├── rate_limit.json           # Controle de rate limit
+│   ├── logs/                     # Arquivos de log
+│   ├── media/                    # Mídias temporárias
+│   └── x_profile/                # Perfil do navegador do X
+├── scripts/
+│   └── x_login.py                # Script de login no X
+└── requirements.txt              # Dependências
+
+================================================================================
+SOLUÇÃO DE PROBLEMAS COMUNS
+================================================================================
+
+PROBLEMA: "ModuleNotFoundError: No module named 'dotenv'"
+SOLUÇÃO: Execute: python -m pip install python-dotenv
+
+PROBLEMA: "playwright install" falha
+SOLUÇÃO: Execute como Administrador:
+         python -m playwright install
+
+PROBLEMA: Telegram não conecta
+SOLUÇÃO: 
+- Verifique se API_ID e API_HASH estão corretos
+- Verifique se o número de telefone está no formato internacional (+5511999999999)
+- Verifique se o canal existe e você tem acesso
+
+PROBLEMA: X não faz login
+SOLUÇÃO:
+- Execute: python scripts/x_login.py
+- Faça login manualmente
+- Verifique se não há 2FA não configurado
+
+PROBLEMA: Bot não publica no X
+SOLUÇÃO:
+- Verifique se o canal do Telegram está correto
+- Verifique se o bot está recebendo mensagens (logs)
+- Verifique se o X está logado (perfil em storage/x_profile/)
+- Verifique se há erros nos logs (storage/logs/)
+
+PROBLEMA: Publicação duplicada
+SOLUÇÃO:
+- O bot agora tem proteção contra duplicatas
+- Verifique se RECOVER_PENDING_ON_START=true no .env
+- Verifique se published.json está sendo atualizado
+
+PROBLEMA: Timeout ao publicar
+SOLUÇÃO:
+- Aumente X_UPLOAD_TIMEOUT_MS no .env (padrão: 300000 = 5min)
+- Verifique se a mídia não está muito grande
+- Verifique se a conexão com o X está estável
+
+================================================================================
+COMANDOS ÚTEIS
+================================================================================
+
+# Executar o bot
+python app.py
+
+# Fazer login no X
+python scripts/x_login.py
+
+# Ver logs em tempo real
+Get-Content storage/logs/bot.log -Wait
+
+# Limpar jobs pendentes (CUIDADO: apaga tudo)
+python -c "from storage import PendingStore; from pathlib import Path; import asyncio; asyncio.run(PendingStore(Path('storage/pending.json')).clear())"
+
+# Ver mensagens publicadas
+type storage\published.json
+
+# Ver jobs pendentes
+type storage\pending.json
+
+# Backup dos dados
+xcopy storage storage_backup /E /I /H
+
+================================================================================
+ATUALIZAÇÕES
+================================================================================
+
+Para atualizar o bot:
+
+1. Se usa Git:
+   git pull origin main
+   python -m pip install -r requirements.txt
+
+2. Se não usa Git:
+   - Baixe a nova versão
+   - Copie o arquivo .env da versão antiga
+   - Execute: python -m pip install -r requirements.txt
+
+================================================================================
+SEGURANÇA
+================================================================================
+
+1. NUNCA compartilhe o arquivo .env
+2. NUNCA compartilhe o arquivo storage/x_profile/
+3. O .env contém senhas e tokens sensíveis
+4. O storage/x_profile/ contém sessões de navegador ativas
+5. Adicione .env e storage/ ao .gitignore antes de commitar
+
+================================================================================
+SUPORTE
+================================================================================
+
+Se tiver problemas:
+1. Verifique os logs em storage/logs/
+2. Verifique se todas as credenciais estão corretas
+3. Verifique se o Telegram e X estão acessíveis
+4. Verifique se não há bloqueios de firewall
+
+================================================================================
+FIM DO GUIA
+================================================================================

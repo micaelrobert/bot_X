@@ -1,0 +1,51 @@
+2026/08/06-15:43:29.225 588c Reusing MANIFEST C:\Users\Micael\Documents\telegram_to_x_project - Copia\telegram_to_x\storage\x_profile\Default\IndexedDB\https_x.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/08/06-15:43:29.226 588c Recovering log #1374
+2026/08/06-15:43:29.589 588c Reusing old log C:\Users\Micael\Documents\telegram_to_x_project - Copia\telegram_to_x\storage\x_profile\Default\IndexedDB\https_x.com_0.indexeddb.leveldb/001374.log 
+2026/08/06-15:48:53.202 3544 Level-0 table #1379: started
+2026/08/06-15:48:53.430 3544 Level-0 table #1379: 2821886 bytes OK
+2026/08/06-15:48:53.432 3544 Delete type=0 #1374
+2026/08/06-16:28:04.675 3edc Compacting 1@1 + 1@2 files
+2026/08/06-16:28:04.779 3edc Generated table #1380@1: 59 keys, 45324 bytes
+2026/08/06-16:28:04.779 3edc Compacted 1@1 + 1@2 files => 45324 bytes
+2026/08/06-16:28:04.780 3edc compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/08/06-16:28:04.782 3edc Delete type=2 #1376
+2026/08/06-16:28:04.782 3edc Delete type=2 #1379
+2026/08/06-17:04:02.260 3edc Level-0 table #1382: started
+2026/08/06-17:04:02.335 3edc Level-0 table #1382: 2788529 bytes OK
+2026/08/06-17:04:02.339 3edc Delete type=0 #1378
+2026/08/06-17:16:08.816 3edc Compacting 1@1 + 1@2 files
+2026/08/06-17:16:08.830 3edc Generated table #1383@1: 60 keys, 45261 bytes
+2026/08/06-17:16:08.830 3edc Compacted 1@1 + 1@2 files => 45261 bytes
+2026/08/06-17:16:08.831 3edc compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/08/06-17:16:08.831 3edc Delete type=2 #1380
+2026/08/06-17:16:08.831 3edc Delete type=2 #1382
+2026/08/06-18:16:49.533 578 Level-0 table #1385: started
+2026/08/06-18:16:50.241 578 Level-0 table #1385: 2818941 bytes OK
+2026/08/06-18:16:50.245 578 Delete type=0 #1381
+2026/08/06-18:39:02.689 63c8 Compacting 1@1 + 1@2 files
+2026/08/06-18:39:02.872 63c8 Generated table #1386@1: 59 keys, 45188 bytes
+2026/08/06-18:39:02.872 63c8 Compacted 1@1 + 1@2 files => 45188 bytes
+2026/08/06-18:39:02.873 63c8 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/08/06-19:13:09.729 3edc Level-0 table #1388: started
+2026/08/06-19:13:09.984 3edc Level-0 table #1388: 2814047 bytes OK
+2026/08/06-19:13:10.033 3edc Delete type=2 #1383
+2026/08/06-19:13:10.033 3edc Delete type=0 #1384
+2026/08/06-19:13:10.034 3edc Delete type=2 #1385
+2026/08/06-20:04:38.217 3edc Compacting 1@1 + 1@2 files
+2026/08/06-20:04:38.233 3edc Generated table #1389@1: 59 keys, 45071 bytes
+2026/08/06-20:04:38.233 3edc Compacted 1@1 + 1@2 files => 45071 bytes
+2026/08/06-20:04:38.234 3edc compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/08/06-20:04:38.235 3edc Delete type=2 #1386
+2026/08/06-20:04:38.235 3edc Delete type=2 #1388
+2026/08/06-20:29:50.925 3edc Level-0 table #1391: started
+2026/08/06-20:29:51.135 3edc Level-0 table #1391: 2813626 bytes OK
+2026/08/06-20:29:51.137 3edc Delete type=0 #1387
+2026/08/06-21:10:49.897 934 Compacting 1@1 + 1@2 files
+2026/08/06-21:10:50.383 934 Generated table #1392@1: 59 keys, 45166 bytes
+2026/08/06-21:10:50.383 934 Compacted 1@1 + 1@2 files => 45166 bytes
+2026/08/06-21:10:50.384 934 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/08/06-21:10:50.384 934 Delete type=2 #1389
+2026/08/06-21:10:50.384 934 Delete type=2 #1391
+2026/08/06-23:25:33.974 934 Level-0 table #1394: started
+2026/08/06-23:25:34.445 934 Level-0 table #1394: 2814131 bytes OK
+2026/08/06-23:25:34.477 934 Delete type=0 #1390

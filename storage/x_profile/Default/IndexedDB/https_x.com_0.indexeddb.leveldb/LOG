@@ -1,0 +1,45 @@
+2026/08/07-08:33:02.153 2a68 Reusing MANIFEST C:\Users\Micael\Documents\telegram_to_x_project - Copia\telegram_to_x\storage\x_profile\Default\IndexedDB\https_x.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/08/07-08:33:02.154 2a68 Recovering log #1393
+2026/08/07-08:33:02.159 2a68 Reusing old log C:\Users\Micael\Documents\telegram_to_x_project - Copia\telegram_to_x\storage\x_profile\Default\IndexedDB\https_x.com_0.indexeddb.leveldb/001393.log 
+2026/08/07-08:45:07.072 3bcc Compacting 1@1 + 1@2 files
+2026/08/07-08:45:07.083 3bcc Generated table #1396@1: 59 keys, 45077 bytes
+2026/08/07-08:45:07.083 3bcc Compacted 1@1 + 1@2 files => 45077 bytes
+2026/08/07-08:45:07.084 3bcc compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/08/07-08:45:07.084 3bcc Delete type=2 #1392
+2026/08/07-08:45:07.084 3bcc Delete type=2 #1394
+2026/08/07-09:15:08.059 4920 Level-0 table #1398: started
+2026/08/07-09:15:08.076 4920 Level-0 table #1398: 2773051 bytes OK
+2026/08/07-09:15:08.078 4920 Delete type=0 #1393
+2026/08/07-09:30:06.483 2a68 Compacting 1@1 + 1@2 files
+2026/08/07-09:30:06.496 2a68 Generated table #1399@1: 59 keys, 45221 bytes
+2026/08/07-09:30:06.496 2a68 Compacted 1@1 + 1@2 files => 45221 bytes
+2026/08/07-09:30:06.497 2a68 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/08/07-09:30:06.497 2a68 Delete type=2 #1396
+2026/08/07-09:30:06.497 2a68 Delete type=2 #1398
+2026/08/07-09:48:07.121 4920 Level-0 table #1401: started
+2026/08/07-09:48:07.360 4920 Level-0 table #1401: 2813671 bytes OK
+2026/08/07-09:48:07.385 4920 Delete type=0 #1397
+2026/08/07-10:05:13.368 3bcc Compacting 1@1 + 1@2 files
+2026/08/07-10:05:13.381 3bcc Generated table #1402@1: 59 keys, 45139 bytes
+2026/08/07-10:05:13.381 3bcc Compacted 1@1 + 1@2 files => 45139 bytes
+2026/08/07-10:05:13.383 3bcc compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/08/07-10:05:13.383 3bcc Delete type=2 #1399
+2026/08/07-10:05:13.383 3bcc Delete type=2 #1401
+2026/08/07-10:54:00.702 4920 Level-0 table #1404: started
+2026/08/07-10:54:00.729 4920 Level-0 table #1404: 2772521 bytes OK
+2026/08/07-10:54:00.730 4920 Delete type=0 #1400
+2026/08/07-11:25:01.235 4920 Compacting 1@1 + 1@2 files
+2026/08/07-11:25:01.248 4920 Generated table #1405@1: 59 keys, 45112 bytes
+2026/08/07-11:25:01.248 4920 Compacted 1@1 + 1@2 files => 45112 bytes
+2026/08/07-11:25:01.249 4920 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/08/07-11:25:01.249 4920 Delete type=2 #1402
+2026/08/07-11:25:01.249 4920 Delete type=2 #1404
+2026/08/07-11:51:17.885 4920 Level-0 table #1407: started
+2026/08/07-11:51:17.911 4920 Level-0 table #1407: 2813197 bytes OK
+2026/08/07-11:51:17.913 4920 Delete type=0 #1403
+2026/08/07-12:11:17.463 3bcc Compacting 1@1 + 1@2 files
+2026/08/07-12:11:17.476 3bcc Generated table #1408@1: 59 keys, 45208 bytes
+2026/08/07-12:11:17.476 3bcc Compacted 1@1 + 1@2 files => 45208 bytes
+2026/08/07-12:11:17.477 3bcc compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/08/07-12:11:17.477 3bcc Delete type=2 #1405
+2026/08/07-12:11:17.477 3bcc Delete type=2 #1407

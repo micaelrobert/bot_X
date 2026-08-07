@@ -1,0 +1,15 @@
+2026/08/07-07:04:33.926 5dfc Reusing MANIFEST C:\Users\Micael\Documents\telegram_to_x_project - Copia\telegram_to_x\storage\x_profile\Default\Local Storage\leveldb/MANIFEST-000001
+2026/08/07-07:04:33.930 5dfc Recovering log #66
+2026/08/07-07:04:33.933 5dfc Reusing old log C:\Users\Micael\Documents\telegram_to_x_project - Copia\telegram_to_x\storage\x_profile\Default\Local Storage\leveldb/000066.log 
+2026/08/07-11:57:15.724 5a88 Level-0 table #70: started
+2026/08/07-11:57:15.730 5a88 Level-0 table #70: 11350 bytes OK
+2026/08/07-11:57:15.742 5a88 Delete type=0 #66
+2026/08/07-11:57:15.743 5dfc Compacting 4@0 + 1@1 files
+2026/08/07-11:57:15.759 5dfc Generated table #71@0: 4818 keys, 122747 bytes
+2026/08/07-11:57:15.759 5dfc Compacted 4@0 + 1@1 files => 122747 bytes
+2026/08/07-11:57:15.775 5dfc compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/08/07-11:57:15.776 5dfc Delete type=2 #58
+2026/08/07-11:57:15.776 5dfc Delete type=2 #61
+2026/08/07-11:57:15.777 5dfc Delete type=2 #64
+2026/08/07-11:57:15.777 5dfc Delete type=2 #67
+2026/08/07-11:57:15.777 5dfc Delete type=2 #70

@@ -1,15 +1,21 @@
-"""Open a headed persistent Chromium session for X."""
+"""Open the real Edge profile, confirm X login and save session."""
 
 from __future__ import annotations
 
 import asyncio
+import sys
 from pathlib import Path
 
 from playwright.async_api import async_playwright
 
 
-async def main():
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(PROJECT_ROOT))
 
+
+async def main() -> None:
+
+    # Perfil REAL do Edge do usuário
     edge_profile = (
         Path.home()
         / "AppData"
@@ -19,11 +25,12 @@ async def main():
         / "User Data"
     )
 
-    async with async_playwright() as p:
+    print("\nUsando perfil real do Edge:")
+    print(edge_profile)
 
-        print("Abrindo Edge...")
+    async with async_playwright() as playwright:
 
-        context = await p.chromium.launch_persistent_context(
+        context = await playwright.chromium.launch_persistent_context(
             user_data_dir=str(edge_profile),
             channel="msedge",
             headless=False,
@@ -37,16 +44,11 @@ async def main():
             },
         )
 
-        print("Edge aberto!")
-
-        print("Páginas detectadas:")
-        for page in context.pages:
-            print(page.url)
-
-        # Cria uma nova aba controlada pelo Playwright
-        page = await context.new_page()
-
-        print("Abrindo X...")
+        page = (
+            context.pages[0]
+            if context.pages
+            else await context.new_page()
+        )
 
         await page.goto(
             "https://x.com/home",
@@ -54,15 +56,18 @@ async def main():
             timeout=60000,
         )
 
-        print("X carregado!")
-        print("Confira se está logado.")
+        print("\nPágina do X aberta.")
+        print("Confirme se a conta dele já está logada.")
+        print("NÃO faça login pelo script.")
 
         await asyncio.to_thread(
             input,
-            "ENTER para fechar..."
+            "\nPressione ENTER para salvar a sessão e fechar..."
         )
 
         await context.close()
+
+        print("\nSessão confirmada e salva no perfil do Edge.")
 
 
 if __name__ == "__main__":

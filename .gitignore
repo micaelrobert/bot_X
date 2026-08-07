@@ -7,8 +7,6 @@ __pycache__/
 .env
 
 storage/*
-!storage/logs/
-!storage/logs/.gitkeep
 !storage/media/
 !storage/media/.gitkeep
 !storage/x_profile/

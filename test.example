@@ -1,21 +1,11 @@
-"""Open a headed persistent Chromium session for the first X login."""
-
-from __future__ import annotations
-
-import asyncio
-import sys
 from pathlib import Path
-
+import asyncio
 from playwright.async_api import async_playwright
 
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(PROJECT_ROOT))
+async def main():
 
-
-async def main() -> None:
-
-    # Perfil REAL do Edge já usado pelo usuário
+    # Perfil específico do Edge
     edge_profile = (
         Path.home()
         / "AppData"
@@ -23,58 +13,41 @@ async def main() -> None:
         / "Microsoft"
         / "Edge"
         / "User Data"
+        / "Default"
     )
 
-    print("Perfil Edge utilizado:")
+    print("Abrindo perfil:")
     print(edge_profile)
 
-    if not edge_profile.exists():
-        raise Exception("Perfil do Edge não encontrado.")
+    async with async_playwright() as p:
 
-    print("\nPastas encontradas no User Data:")
-    for folder in edge_profile.iterdir():
-        if folder.is_dir():
-            print("-", folder.name)
-
-    async with async_playwright() as playwright:
-
-        context = await playwright.chromium.launch_persistent_context(
+        context = await p.chromium.launch_persistent_context(
             user_data_dir=str(edge_profile),
             channel="msedge",
             headless=False,
             locale="pt-BR",
-            args=[
-                "--profile-directory=Default"
-            ],
             viewport={
                 "width": 1440,
                 "height": 1000
             },
         )
 
-        page = (
-            context.pages[0]
-            if context.pages
-            else await context.new_page()
-        )
+        page = context.pages[0] if context.pages else await context.new_page()
 
         await page.goto(
             "https://x.com/home",
-            wait_until="domcontentloaded",
+            wait_until="domcontentloaded"
         )
 
-        print("\nVerifique a janela aberta.")
-        print("O X deve abrir já logado usando a sessão salva do Edge.")
-        print("Caso peça login, a sessão não está sendo encontrada.")
+        print("Página aberta.")
+        print("Confira se está logado.")
 
         await asyncio.to_thread(
             input,
-            "\nPressione ENTER para salvar a sessão e fechar... "
+            "ENTER para fechar..."
         )
 
         await context.close()
-
-        print(f"\nSessão persistida em: {edge_profile}")
 
 
 if __name__ == "__main__":

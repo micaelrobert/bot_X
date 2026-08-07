@@ -15,7 +15,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 
 async def main() -> None:
 
-    # Perfil real do Edge
+    # Perfil REAL do Edge já usado pelo usuário
     edge_profile = (
         Path.home()
         / "AppData"
@@ -27,6 +27,11 @@ async def main() -> None:
 
     print("\nPerfil Edge utilizado:")
     print(edge_profile)
+
+    if not edge_profile.exists():
+        raise Exception(
+            f"Perfil do Edge não encontrado: {edge_profile}"
+        )
 
     async with async_playwright() as playwright:
 
@@ -44,21 +49,23 @@ async def main() -> None:
             },
         )
 
-        # Pega a primeira página ou cria uma nova
-        page = (
-            context.pages[0]
-            if context.pages
-            else await context.new_page()
-        )
+        # Remove a página inicial vazia do Chromium
+        for p in context.pages:
+            await p.close()
 
-        # Abre diretamente o X
+        # Cria uma nova página usando a sessão salva
+        page = await context.new_page()
+
+        print("\nAbrindo X...")
+
         await page.goto(
             "https://x.com/home",
             wait_until="domcontentloaded",
+            timeout=45000,
         )
 
         print("\nPágina do X aberta.")
-        print("Confirme se a conta está logada corretamente.")
+        print("Confira se a conta está logada.")
 
         await asyncio.to_thread(
             input,
@@ -67,8 +74,8 @@ async def main() -> None:
 
         await context.close()
 
-        print("\nSessão salva com sucesso!")
-        print(f"Perfil utilizado: {edge_profile}")
+        print("\nSessão persistida com sucesso!")
+        print(f"Perfil salvo em: {edge_profile}")
 
 
 if __name__ == "__main__":

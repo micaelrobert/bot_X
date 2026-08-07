@@ -1,13 +1,21 @@
+"""Open a headed persistent Chromium session for the first X login."""
+
 from __future__ import annotations
 
 import asyncio
+import sys
 from pathlib import Path
 
 from playwright.async_api import async_playwright
 
 
-async def main():
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(PROJECT_ROOT))
 
+
+async def main() -> None:
+
+    # Perfil REAL do Edge
     edge_profile = (
         Path.home()
         / "AppData"
@@ -17,42 +25,46 @@ async def main():
         / "User Data"
     )
 
-    print("Iniciando Playwright...")
+    async with async_playwright() as playwright:
 
-    async with async_playwright() as p:
-
-        print("Abrindo Edge...")
-
-        context = await p.chromium.launch_persistent_context(
+        context = await playwright.chromium.launch_persistent_context(
             user_data_dir=str(edge_profile),
             channel="msedge",
             headless=False,
+            locale="pt-BR",
+            viewport={
+                "width": 1440,
+                "height": 1000,
+            },
             args=[
                 "--profile-directory=Default",
             ],
-            timeout=120000,
         )
 
-        print("Contexto criado!")
-
-        print("Páginas:")
-        for page in context.pages:
-            print(page.url)
-
-        page = context.pages[0]
-
-        print("Abrindo X...")
+        page = (
+            context.pages[0]
+            if context.pages
+            else await context.new_page()
+        )
 
         await page.goto(
             "https://x.com/home",
-            timeout=60000
+            wait_until="domcontentloaded",
+            timeout=60000,
         )
 
-        print("X aberto!")
+        print("\nX aberto.")
+        print("Confirme se está logado.")
 
-        input("ENTER para fechar")
+        await asyncio.to_thread(
+            input,
+            "\nPressione ENTER para salvar e fechar..."
+        )
 
         await context.close()
 
+        print("Sessão salva.")
 
-asyncio.run(main())
+
+if __name__ == "__main__":
+    asyncio.run(main())

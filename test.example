@@ -1,27 +1,34 @@
+"""Open a headed persistent Chromium session for the first X login."""
+
 from __future__ import annotations
 
 import asyncio
+import sys
 from pathlib import Path
 
 from playwright.async_api import async_playwright
 
 
-EDGE_USER_DATA = (
-    Path.home()
-    / "AppData"
-    / "Local"
-    / "Microsoft"
-    / "Edge"
-    / "User Data"
-)
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(PROJECT_ROOT))
 
 
-async def main():
+async def main() -> None:
+
+    # Perfil REAL do Edge já usado pelo usuário
+    edge_profile = (
+        Path.home()
+        / "AppData"
+        / "Local"
+        / "Microsoft"
+        / "Edge"
+        / "User Data"
+    )
 
     async with async_playwright() as playwright:
 
         context = await playwright.chromium.launch_persistent_context(
-            user_data_dir=str(EDGE_USER_DATA),
+            user_data_dir=str(edge_profile),
             channel="msedge",
             headless=False,
             locale="pt-BR",
@@ -34,14 +41,21 @@ async def main():
         page = context.pages[0] if context.pages else await context.new_page()
 
         await page.goto(
-            "https://x.com/home",
-            wait_until="domcontentloaded"
+            "https://x.com/i/flow/login",
+            wait_until="domcontentloaded",
         )
 
-        print("Edge aberto com perfil existente.")
-        print("Verifique se o X já está logado.")
+        print("\nFaça login manualmente no X na janela aberta.")
+        print("Conclua 2FA/CAPTCHA, confirme que a página inicial abriu e volte aqui.")
 
-        await asyncio.Event().wait()
+        await asyncio.to_thread(
+            input,
+            "Pressione ENTER para salvar a sessão e fechar... "
+        )
+
+        await context.close()
+
+        print(f"Sessão persistida em: {edge_profile}")
 
 
 if __name__ == "__main__":
